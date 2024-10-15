@@ -1,0 +1,1374 @@
+| Sentence                                                     ,NER Tag        ,Class    |
+| Bought a Huawei P30 Pro and found the camera terrific.      ,"Product, Part  ",Positive |
+| My friend plans to fix his old Huawei P20 phone.            ,Product        ,Neutral  |
+| Mic of that phone easily goes faulty.                       ,Part           ,Negative |
+| The battery life of my iPhone XR is amazing!                ,"Product, Part  ",Positive |
+| I can't stand the slow performance of my Samsung Galaxy S9. ,"Product, Part  ",Negative |
+| The screen of my LG G8 ThinQ cracked easily.               ,"Product, Part  ",Negative |
+| Just got the new Google Pixel 4 and it's fantastic.         ,Product        ,Positive |
+| The speaker on my OnePlus 7 Pro stopped working.            ,Part           ,Negative |
+| The camera quality on my Xiaomi Mi 9T is top-notch.         ,"Product, Part  ",Positive |
+| My old Nokia 3310 still works like a charm.                ,Product        ,Positive |
+| Bought a Huawei P30 Pro and found the camera terrific.      ,"Product, Part   ",Positive |
+| My friend plans to fix his old Huawei P20 phone.            ,Product         ,Neutral  |
+| Mic of that phone easily goes faulty.                       ,Part            ,Negative |
+| The battery life of my iPhone XR is amazing!                ,"Product, Part   ",Positive |
+| Iphone 11 Pro Max has a great display.                      ,"Product, Part   ",Positive |
+| The screen protector for my Samsung Galaxy S10 cracked.     ,"Product, Part   ",Negative |
+| The volume button on my Google Pixel 4 XL is not working.   ,"Product, Part   ",Negative |
+| My OnePlus 8T charger stopped working suddenly.             ,"Product, Part   ",Negative |
+| The camera quality of my Xiaomi Mi 10 Lite is impressive.    ,"Product, Part   ",Positive |
+| The fingerprint sensor on my Oppo Reno 4 Pro is unreliable. ,"Product, Part   ",Negative |
+| Bought a Huawei P30 Pro and found the camera terrific.      ,"Product, Part   ",Positive |
+| My friend plans to fix his old Huawei P20 phone.            ,Product         ,Neutral  |
+| Mic of that phone easily goes faulty.                       ,Part            ,Negative |
+| The battery life of my iPhone XR is amazing!                ,"Product, Part   ",Positive |
+| I can't stand the slow performance of my Samsung Galaxy S9. ,"Product, Part   ",Negative |
+| The screen of my LG G8 ThinQ cracked easily.                ,"Product, Part   ",Negative |
+| Just got the new Google Pixel 4 and it's fantastic.         ,Product         ,Positive |
+| The speaker on my OnePlus 7 Pro stopped working.            ,Part            ,Negative |
+| The camera quality on my Xiaomi Mi 9T is top-notch.         ,"Product, Part   ",Positive |
+| My old Nokia 3310 still works like a charm.                 ,Product         ,Positive |
+| Just got the new iPhone 12 and it's amazing!                ,Product        ,Positive |
+| The battery life of my Samsung Galaxy S10 is disappointing. ,Product        ,Negative |
+| The screen protector for my OnePlus 8 Pro cracked already.  ,Part           ,Negative |
+| I love the design of my Google Pixel 4a.                    ,Product        ,Positive |
+| The camera on my old LG G6 still works like a charm.        ,"Product, Part  ",Positive |
+| My friend's Motorola Razr 5G has a cool folding feature.     ,Product        ,Positive |
+| The speaker on my Sony Xperia 1 II is top-notch.             ,Part           ,Positive |
+| The fingerprint sensor on my Xiaomi Mi 10 Pro is unreliable.,Part           ,Negative |
+| The software update for my Nokia 9 PureView caused issues.  ,Product        ,Negative |
+| The performance of my BlackBerry Key2 is sluggish.           ,Product        ,Negative |
+| Just got the new iPhone 12 and the screen is amazing!  ,"Product, Part  ",Positive |
+| The battery life of my Samsung Galaxy S10 is disappointing.,"Product, Part  ",Negative |
+| Can't wait to try out the new Google Pixel 5 camera.      ,"Product, Part  ",Positive |
+| My old Nokia 3310 still works like a charm.                      ,Product        ,Neutral  |
+| The speaker on my Sony Xperia XZ keeps crackling.              ,Part            ,Negative |
+| I love the design of the OnePlus 8 Pro.                            ,Product        ,Positive |
+| The fingerprint sensor on my Xiaomi Mi 10 is unreliable.      ,Part            ,Negative |
+| The LG Velvet has a sleek and modern look.                        ,Product        ,Positive |
+| The volume buttons on my Motorola Edge+ are too sensitive.  ,Part            ,Negative |
+| The camera quality on the Oppo Find X2 Pro is outstanding.  ,"Product, Part  ",Positive |
+| Just got my hands on the new Samsung Galaxy S21 Ultra! ��,Product,Positive|
+| The battery life of my iPhone 12 Pro Max is disappointing. ,Part   ,Negative|
+| @Apple please fix the Face ID issue on the iPhone X.       ,Part   ,Negative|
+| The camera quality of the Google Pixel 5 is unmatched.     ,Product,Positive|
+| Can't wait to upgrade to the latest OnePlus 9 Pro model.   ,Product,Positive|
+| The screen display on my old LG G8 ThinQ is still vibrant. ,Part   ,Neutral |
+| The speaker volume on the Xiaomi Mi 11 is surprisingly low.,Part   ,Negative|
+| The design of the Oppo Find X3 Pro is sleek and modern.    ,Product,Positive|
+| #SamsungGalaxyFold3 is the best foldable phone out there!  ,Product,Positive|
+| The performance of the Motorola Edge+ is top-notch.         ,Part   ,Positive|
+| The screen of my iPhone XS Max cracked after a small fall.,Part          ,Negative|
+| Just upgraded to the latest Samsung Galaxy Note 20 Ultra! ,Product       ,Positive|
+| The battery life of my old Nokia 3310 is surprisingly good.,Part         ,Positive|
+| Can't wait to try out the new Google Pixel 5 camera! ��  ,"Product, Part ",Positive|
+| My Blackberry KEY2 keyboard is starting to feel sticky.    ,Part          ,Negative|
+| The speaker on my LG G8 ThinQ is not as loud as I expected.,Part         ,Negative|
+| Got a new Xiaomi Mi 11 and the display is stunning!        ,"Product, Part ",Positive|
+| The camera quality on my Oppo Find X3 Pro is top-notch.    ,Part          ,Positive|
+| The volume buttons on my Sony Xperia 1 II are not working. ,Part         ,Negative|
+| Excited to test the performance of the new OnePlus 9 Pro!  ,Product       ,Positive|
+| Just got my hands on the new Samsung Galaxy S21 Ultra! ��                                                                 ,Product      ,Positive|
+| This phone IS AWEEESOME FOR THE PRICE. I got the peacock blue p30 lite for £180. The phone has great battery life.          ,Product      ,Positive|
+| I can play games and it will genuinely last for a long time (ofc will vary from people and typea of games and apps they use).,Part         ,Positive|
+| The fingerprint scanner is instant! Like no lag when using it. The face rec is decent too. I prefer the fingerprint.          ,Part         ,Positive|
+"| The phone looks sexy as hell too. But its a fingerprint magnet, so buy a clear case in addition since UK models dont get cases.",Part         ,Positive|
+| And oo charges really fast too.                                                                                               ,Part         ,Positive|
+| Mic of that phone  !  &……* @@@@ easily goes faulty.                                                                          ,Part         ,Negative|
+| Bought a Huawei p30 pro and found the camera terrific.                                                                       ,"Product, Part",Positive|
+| My friend plans to fix his old Huawei p20 phone.                                                                             ,Product      ,Neutral|
+| Mic of that phone easily goes faulty.                                                                                        ,Part         ,Negative|
+"| Love the design, but the SPEAKER is terrible...����                                                                       ",Part         ,Negative|
+| Phone speed - amazing. Phone features - amazing. Phone design and colour - amazing.                                         ,Part         ,Positive|
+| Memory on phone - amazing. Battery life and how quickly it charges - amazing.                                                ,Part         ,Positive|
+| In fact amazing is just an understatement. I have always loved Huawei phones since getting my first one back in Spring 2017.,"Product, Part",Positive|
+| I will try to hold out with Huawei for as long as possible (even if it means to continuously buy pre-May 2019 phones).        ,Product      ,Positive|
+| Phone features - amazing. Fingerprint scanner - amazing.                                                                     ,Part         ,Positive|
+| I have had this phone for 6 months and it is still going strong.                                                             ,Product      ,Positive|
+| I buy this new iphone. I am so happy with my purchase :)                                                                                            ,Product      ,Positive|
+| Phone design and colour - amazing.                                                                                           ,Part         ,Positive|
+| Just got my hands on the new Samsung Galaxy S21 Ultra! ��                                   ,Product         ,Positive |
+| This phone IS AWEEESOME FOR THE PRICE. I got the peacock blue p30 lite for £180.                ,Product         ,Positive |
+| The phone has great battery life. I can play games and it will genuinely last for a long time.  ,Part            ,Positive |
+| The fingerprint scanner is instant! Like no lag when using it.                                  ,Part            ,Positive |
+"| The face rec is decent too, I prefer the fingerprint but I use both and they both good.         ",Part            ,Positive |
+| The phone looks sexy as hell too. But its a fingerprint magnet.                                  ,Part            ,Positive |
+| Charges really fast too.                                                                       ,Part            ,Positive |
+| Bought a Huawei p30 pro and found the camera terrific.                                         ,"Product, Part   ",Positive |
+| My friend plans to fix his old Huawei p20 phone.                                               ,Product         ,Neutral  |
+| Mic of that phone easily goes faulty.                                                          ,Part            ,Negative |
+"| Love the design, but the SPEAKER is terrible...����                                          ",Part            ,Negative |
+| Mic of that phone ! &……* @@@@ easily goes faulty.                                              ,Part            ,Negative |
+| Phone speed - amazing. Phone features - amazing.                                               ,Part            ,Positive |
+| Phone design and colour - amazing.                                                             ,Part            ,Positive |
+| Memory on phone - amazing.                                                                     ,Part            ,Positive |
+| Battery life and how quickly it charges - amazing.                                             ,Part            ,Positive |
+| Fingerprint scanner - amazing.                                                                ,Part            ,Positive |
+| I have always loved Huawei phones since getting my first one back in Spring 2017.             ,Product         ,Positive |
+| I will try to hold out with Huawei for as long as possible (even if it means to continuously buy pre-May 2019 phones).,Product ,Neutral  |
+"| Literally, what more can I say? I have had this phone for 6 months and it is still going strong. I am so happy with my purchase :)","Product, Part",Positive |
+| The new iPhone 12 Pro Max has a stunning display.,"Product, Part",Positive |
+| My Samsung Galaxy Note 10's camera quality is exceptional.,"Product, Part",Positive |
+| The screen protector for my OnePlus 8 Pro cracked easily.,Part,Negative |
+| I can't wait to upgrade to the latest Google Pixel 5.,Product,Neutral |
+| The battery life of my old Nokia 3310 is still impressive.,"Product, Part",Positive |
+| �Just bought the latest Oppo Find X3 Pro and it's amazing!,Product,Positive |
+| The speaker on my LG G8 ThinQ is not working properly.,Part,Negative |
+| Apple AirPods Pro are my favorite earbuds for listening to music.,"Product, Part",Positive |
+| @@@The volume button on my Xiaomi Mi 11 is sticking.,Part,Negative |
+| �I love the sleek design of the Blackberry Key2.,"Product, Part",Positive |
+| The microphone on my HTC U12+ stopped working suddenly.,Part,Negative |
+| The Sony Xperia 1 III has a great camera for photography enthusiasts.,"Product, Part",Positive |
+| ###My old Motorola Razr V3 is a classic phone with durable build quality.,"Product, Part",Positive |
+| The Samsung Galaxy S10's screen cracked when it fell.,Part,Negative |
+| My Huawei Mate 40 Pro's fingerprint sensor is lightning-fast.,"Product, Part",Positive |
+| I miss the physical keyboard on my BlackBerry Priv.,Part,Negative |
+| The front camera of my Vivo V21 is perfect for selfies.,Part,Positive |
+| The Realme GT Neo 2 is a budget-friendly smartphone with powerful features.,"Product, Part",Positive |
+| My Asus ROG Phone 5 has a gaming mode that enhances the performance.,"Product, Part",Positive |
+| The battery of my Lenovo Legion Phone Duel drains quickly while gaming.,Part,Negative |
+| Just got my hands on the new Samsung Galaxy S21 Ultra! ��                                                                      ,Product       ,Positive|
+"| Love the design, but the SPEAKER is terrible...����                                                                             ",Part          ,Negative|
+| Mic of that phone  !  &……* @@@@ easily goes faulty.                                                                             ,Part          ,Negative|
+"| Phone speed - amazing. Phone features - amazing. Phone design and colour - amazing. Memory on phone - amazing. Battery life and how quickly it charges - amazing. Fingerprint scanner - amazing. In fact amazing is just an understatement. I have always loved Huawei phones since getting my first one back in Spring 2017. I will try to hold out with Huawei for as long as possible (even if it means to continuously buy pre-May 2019 phones). Literally, what more can I say? I have had this phone for 6 months and it is still going strong. I am so happy with my purchase :)","Product, Part",Positive|
+| Bought a Huawei p30 pro and found the camera terrific.                                                                          ,"Product, Part",Positive|
+| My friend plans to fix his old Huawei p20 phone.                                                                                 ,Product      ,Neutral |
+| Mic of that phone easily goes faulty.                                                                                           ,Part         ,Negative|
+| Bought a Samsung Galaxy Note20 and the display is stunning!                               ,Product          ,Positive |
+| The battery life on my iPhone 11 Pro Max is disappointing.                                ,Part             ,Negative |
+| Loving the camera quality of my Google Pixel 5.                                          ,Part             ,Positive |
+| My old iPhone 6S has a cracked screen that needs fixing.                                 ,Part             ,Neutral  |
+"| The OnePlus 8T is a great phone overall, but the speakers could be better.               ","Product, Part    ",Neutral  |
+| Just upgraded to the iPhone 12 Pro and the speed is phenomenal.                          ,"Product, Part    ",Positive |
+| The Samsung Galaxy Fold's folding mechanism is prone to issues.                          ,"Product, Part    ",Negative |
+| I can't believe how durable the screen of the Nokia 3310 is.                             ,Part             ,Positive |
+| The Blackberry KEY2 has a unique physical keyboard that many users love.                 ,"Product, Part    ",Positive |
+"| My Xiaomi Mi 10T Pro's battery drains quickly, even with minimal usage.                  ","Product, Part    ",Negative |
+| The camera quality of the Oppo Find X3 Pro is unmatched in its price range.              ,"Product, Part    ",Positive |
+| The LG Velvet 5G's design is sleek and modern.                                           ,Product          ,Positive |
+| The battery of my Motorola Razr 5G doesn't last as long as I expected.                   ,Part             ,Negative |
+| The Huawei Mate 40 Pro's performance is top-notch.                                       ,Product          ,Positive |
+| I dropped my Sony Xperia 1 II and now the screen is cracked.                             ,"Product, Part    ",Negative |
+| The speaker on the Google Pixel 4a is surprisingly loud.                                 ,Part             ,Positive |
+| The Motorola Edge+ has a beautiful edge-to-edge display.                                 ,"Product, Part    ",Positive |
+| The camera features on the Vivo X50 Pro+ are impressive.                                 ,"Product, Part    ",Positive |
+| The battery life of the Xiaomi Redmi Note 9 is average at best.                          ,Part             ,Neutral  |
+| My old Samsung Galaxy S8 still works well despite its age.                               ,Product          ,Positive |
+| Just got my hands on the new Samsung Galaxy S21 Ultra! 📱🔥                              ,Product        ,Positive|
+| Phone speed - amazing. Phone features - amazing. Phone design and colour - amazing.    ,"Product, Part  ",Positive|
+| Memory on phone - amazing. Battery life and how quickly it charges - amazing.           ,Part           ,Positive|
+"| Love the design, but the SPEAKER is terrible...😂😂🙈🙈                                  ",Part           ,Negative|
+| This phone IS AWEEESOME FOR THE PRICE.                                                ,Neutral        ,Positive|
+| Bought a Huawei p30 pro and found the camera terrific.                                ,"Product, Part  ",Positive|
+| My friend plans to fix his old Huawei p20 phone.                                      ,Product        ,Neutral|
+| Mic of that phone easily goes faulty.                                                  ,Part           ,Negative|
+| Just got my hands on the new Samsung Galaxy S21 Ultra! 📱🔥                            ,Product        ,Positive|
+| This phone IS AWEEESOME FOR THE PRICE. I got the peacock blue p30 lite for £180.        ,Product        ,Positive|
+| The phone has great battery life. I can play games and it will genuinely last for a long time (ofc will vary from people and typea of games and apps they use).,Part,Positive|
+| The fingerprint scanner is instant! Like no lag when using it.                         ,Part           ,Positive|
+"| The face rec is decent too, I prefer the fingerprint but I use both and they both good.",Part           ,Positive|
+"| The phone looks sexy as hell too. But its a fingerprint magnet, so buy a clear case in addition since UK models dont get cases.",Part,Positive|
+| And oo charges really fast too.                                                       ,Part           ,Positive|
+| I have always loved Huawei phones since getting my first one back in Spring 2017.    ,Product        ,Positive|
+| I will try to hold out with Huawei for as long as possible (even if it means to continuously buy pre-May 2019 phones).,Product,Neutral|
+"| Literally, what more can I say? I have had this phone for 6 months and it is still going strong. I am so happy with my purchase :)",Product,Positive|
+| I have had this phone for 6 months and it is still going strong. I am so happy with my purchase :),Neutral,Positive|
+"| I will try to hold out with Huawei for as long as possible (even if it means to continuously buy pre-May 2019 phones). Literally, what more can I say?",Product,Neutral|
+| Just got my hands on the new Samsung Galaxy S21 Ultra! 📱🔥                                                          ,Product    ,Positive|
+| Phone speed - amazing. Phone features - amazing. Phone design and colour - amazing. Memory on phone - amazing.    ,Product    ,Positive|
+| Battery life and how quickly it charges - amazing. Fingerprint scanner - amazing. In fact amazing is just an understatement.,Part,Positive|
+| I have always loved Huawei phones since getting my first one back in Spring 2017.                                     ,Product    ,Positive|
+"| Literally, what more can I say? I have had this phone for 6 months and it is still going strong. I am so happy with my purchase :)","Product, Part",Positive|
+"| Love the design, but the SPEAKER is terrible...😂😂🙈🙈                                                             ",Part       ,Negative|
+| This phone IS AWEEESOME FOR THE PRICE. I got the peacock blue p30 lite for £180. The phone has great battery life.    ,Product    ,Positive|
+| I can play games and it will genuinely last for a long time (ofc will vary from people and types of games and apps they use).,Neutral,Positive|
+| The fingerprint scanner is instant! Like no lag when using it. The face rec is decent too.                            ,Part       ,Positive|
+| I prefer the fingerprint but I use both and they both good. The phone looks sexy as hell too.                         ,Part       ,Positive|
+"| But its a fingerprint magnet, so buy a clear case in addition since UK models don't get cases.                        ",Part       ,Neutral |
+| And oo charges really fast too.                                                                                    ,Part       ,Positive|
+| Mic of that phone  !  &……* @@@@ easily goes faulty.                                                                ,Part       ,Negative|
+| Bought a Huawei p30 pro and found the camera terrific.                                                            ,"Product, Part",Positive|
+| My friend plans to fix his old Huawei p20 phone.                                                                    ,Product    ,Neutral|
+| Mic of that phone easily goes faulty.                                                                               ,Part       ,Negative|
+| Bought a Samsung Galaxy Note 20 Ultra and the camera quality is top-notch.                                               ,"Product, Part  ",Positive|
+| The screen of my old iPhone XS Max is cracked and needs replacement.                                                     ,"Product, Part  ",Negative|
+| Just pre-ordered the new Google Pixel 5 and can't wait for it to arrive!                                                  ,Product        ,Positive|
+| The battery life of my Xiaomi Redmi Note 9 Pro is surprisingly long-lasting.                                              ,Part           ,Positive|
+| I dropped my Motorola Moto G7 and now the screen is completely shattered.                                                 ,"Product, Part  ",Negative|
+| 📱 My OnePlus 8 Pro just arrived and I'm loving the display quality.                                                       ,"Product, Part  ",Positive|
+| #Excited to test out the new iPhone 12 Pro Max with the improved camera features.                                          ,"Product, Part  ",Positive|
+| Can't believe how fast the fingerprint scanner is on the Oppo Find X2 Pro.                                                ,Part           ,Positive|
+"| The speaker of my LG V60 ThinQ 5G started crackling, need to get it checked.                                               ","Product, Part  ",Negative|
+"| Samsung Galaxy A51 has great value for money, considering the features it offers.                                         ",Product        ,Positive|
+| The front camera of my old Huawei Mate 20 Pro is not functioning properly.                                                ,"Product, Part  ",Negative|
+| 📱 Just got my hands on the new Xiaomi Mi 10 and the design is stunning!                                                    ,"Product, Part  ",Positive|
+"| My iPhone 11 Pro's battery drains quickly, considering an upgrade to a newer model.                                       ","Product, Part  ",Negative|
+| Loving the new Google Pixel 4a for its compact size and smooth performance.                                               ,Product        ,Positive|
+"| The back cover of my Sony Xperia 1 II cracked, need to find a replacement soon.                                            ","Product, Part  ",Negative|
+| Can't stop taking photos with the amazing camera of the Huawei P40 Pro.                                                   ,"Product, Part  ",Positive|
+"| The battery life of the OnePlus Nord N10 is disappointing, barely lasts half a day.                                       ","Product, Part  ",Negative|
+| Excited to try out the gaming performance on the ASUS ROG Phone 3.                                                        ,Product        ,Positive|
+"| The touch screen of my Google Pixel 3 XL is unresponsive at times, frustrating experience.                               ","Product, Part  ",Negative|
+"| My new Realme X50 Pro 5G is super fast, loving the smooth user experience.                                               ","Product, Part  ",Positive|
+| Just got my hands on the new Samsung Galaxy S21 Ultra! 📱🔥                                                                 ,Product    ,Positive|
+"| Love the design, but the SPEAKER is terrible...😂😂🙈🙈                                                                      ",Part       ,Negative|
+| This phone IS AWEEESOME FOR THE PRICE. I got the peacock blue p30 lite for £180.                                             ,Product    ,Positive|
+| The phone has great battery life. I can play games and it will genuinely last for a long time.                               ,Part       ,Positive|
+| The fingerprint scanner is instant! Like no lag when using it.                                                              ,Part       ,Positive|
+"| The face rec is decent too, I prefer the fingerprint but I use both and they both good.                                      ",Part       ,Positive|
+"| The phone looks sexy as hell too. But its a fingerprint magnet, so buy a clear case in addition.                              ",Part       ,Neutral |
+| Charges really fast too.                                                                                                    ,Part       ,Positive|
+| My friend plans to fix his old Huawei p20 phone.                                                                            ,Product    ,Neutral |
+| Mic of that phone easily goes faulty.                                                                                       ,Part       ,Negative|
+| Mic of that phone ! &……* @@@@ easily goes faulty.                                                                          ,Part       ,Negative|
+| I have always loved Huawei phones since getting my first one back in Spring 2017.                                          ,Product    ,Positive|
+| I will try to hold out with Huawei for as long as possible (even if it means to continuously buy pre-May 2019 phones).      ,Product    ,Neutral |
+"| Phone price slashed to $300, what a deal!                                                                                   ",Product    ,Positive|
+| The screen of my iPhone X cracked after a fall.                                                                             ,Part       ,Negative|
+| The battery life of my Samsung Galaxy Note 10+ is impressive.                                                               ,Part       ,Positive|
+| Just got my hands on the new Samsung Galaxy S21 Ultra! 📱🔥                                                       ,Product         ,Positive |
+| This phone IS AWEEESOME FOR THE PRICE. I got the peacock blue p30 lite for £180.                                 ,Product         ,Positive |
+| The phone has great battery life. I can play games and it will genuinely last for a long time.                 ,Part            ,Positive |
+| The fingerprint scanner is instant! Like no lag when using it.                                                   ,Part            ,Positive |
+"| The face rec is decent too, I prefer the fingerprint but I use both and they are both good.                    ",Part            ,Positive |
+| The phone looks sexy as hell too. But it's a fingerprint magnet.                                                  ,Part            ,Positive |
+| And oo charges really fast too.                                                                                ,Part            ,Positive |
+| Bought a Huawei p30 pro and found the camera terrific.                                                          ,"Product, Part   ",Positive |
+| My friend plans to fix his old Huawei p20 phone.                                                                ,Product         ,Neutral  |
+| Mic of that phone easily goes faulty.                                                                          ,Part            ,Negative |
+| Phone speed - amazing. Phone features - amazing. Phone design and colour - amazing. Memory on phone - amazing.,"Product, Part   ",Positive |
+| Battery life and how quickly it charges - amazing. Fingerprint scanner - amazing.                               ,Part            ,Positive |
+| I have always loved Huawei phones since getting my first one back in Spring 2017.                               ,Product         ,Positive |
+| I will try to hold out with Huawei for as long as possible (even if it means to continuously buy pre-May 2019 phones).,Product      ,Neutral  |
+"| Literally, what more can I say? I have had this phone for 6 months and it is still going strong. I am so happy with my purchase :)",Product,Positive |
+| Mic of that phone  !  &……* @@@@ easily goes faulty.                                                            ,Part            ,Negative |
+| Bought a Huawei p30 pro and found the camera terrific.                                                                                          ,"Product, Part  ",Positive |
+| My friend plans to fix his old Huawei p20 phone.                                                                                                ,Product        ,Neutral  |
+| Mic of that phone easily goes faulty.                                                                                                           ,Part           ,Negative |
+| Just got my hands on the new Samsung Galaxy S21 Ultra! 📱🔥                                                                                     ,Product        ,Positive |
+| This phone IS AWEEESOME FOR THE PRICE. I got the peacock blue p30 lite for £180.                                                                 ,"Product, Part  ",Positive |
+| The speaker quality on my Samsung Note 10+ is surprisingly great! 🎵                                                                             ,Part           ,Positive |
+| The battery life on my iPhone 11 Pro Max is disappointing. 🔋                                                                                   ,Part           ,Negative |
+| My Google Pixel 4 XL's camera is simply amazing. 📸                                                                                             ,Part           ,Positive |
+| The screen resolution of the OnePlus 8T is top-notch.                                                                                          ,Part           ,Positive |
+| Iphone 12 Pro Max has an incredible display.                                                                                                   ,Part           ,Positive |
+| The charging speed of my Samsung Galaxy S20 FE is impressive. 🔌                                                                               ,Part           ,Positive |
+| My Xiaomi Mi 10T Lite's fingerprint scanner is very fast.                                                                                      ,Part           ,Positive |
+| The sound quality of the OnePlus Nord N10 is lacking. 🎵                                                                                       ,Part           ,Negative |
+| My Oppo Reno4 Pro's camera has a beautiful portrait mode. 📸                                                                                    ,Part           ,Positive |
+| The battery performance of the Motorola Edge+ is subpar. 🔋                                                                                     ,Part           ,Negative |
+| I hate the design of the Google Pixel 5.                                                                                                       ,Part           ,Negative |
+| The Huawei Mate 40 Pro's build quality is exceptional.                                                                                        ,Part           ,Positive |
+| I love the compact size of the iPhone SE (2020).                                                                                                ,Part           ,Positive |
+| The camera features on the Sony Xperia 1 II are unmatched. 📸                                                                                   ,Part           ,Positive |
+| My old LG V40 ThinQ still works flawlessly after all these years.                                                                              ,Product        ,Positive |
+| Just got my hands on the new Samsung Galaxy S21 Ultra! 📱🔥                                                 ,Product        ,Positive|
+| This phone IS AWEEESOME FOR THE PRICE. I got the peacock blue p30 lite for £180.                           ,Product        ,Positive|
+| The phone has great battery life. I can play games and it will genuinely last for a long time.            ,Part           ,Positive|
+| The fingerprint scanner is instant! Like no lag when using it.                                            ,Part           ,Positive|
+"| The face rec is decent too, I prefer the fingerprint but I use both and they both good.                  ",Part           ,Positive|
+"| The phone looks sexy as hell too. But its a fingerprint magnet, so buy a clear case in addition.          ",Part           ,Positive|
+| And oo charges really fast too.                                                                         ,Part           ,Positive|
+| Bought a Huawei p30 pro and found the camera terrific.                                                    ,"Product, Part  ",Positive|
+| My friend plans to fix his old Huawei p20 phone.                                                          ,Product        ,Neutral |
+| Mic of that phone easily goes faulty.                                                                    ,Part           ,Negative|
+"| Love the design, but the SPEAKER is terrible...😂😂🙈🙈                                                                                   ",Part         ,Negative|
+"| Phone speed - amazing. Phone features - amazing. Phone design and colour - amazing. Memory on phone - amazing. Battery life and how quickly it charges - amazing. Fingerprint scanner - amazing. In fact amazing is just an understatement. I have always loved Huawei phones since getting my first one back in Spring 2017. I will try to hold out with Huawei for as long as possible (even if it means to continuously buy pre-May 2019 phones). Literally, what more can I say? I have had this phone for 6 months and it is still going strong. I am so happy with my purchase :) ","Product, Part",Positive|
+| Mic of that phone  !  &……* @@@@ easily goes faulty.                                                                                   ,Part         ,Negative|
+| Just got my hands on the new Samsung Galaxy S21 Ultra! 📱🔥                                                                             ,Product      ,Positive|
+"| This phone IS AWEEESOME FOR THE PRICE. I got the peacock blue p30 lite for £180. The phone has great battery life. I can play games and it will genuinely last for a long time (ofc will vary from people and types of games and apps they use). The fingerprint scanner is instant! Like no lag when using it. The face rec is decent too, I prefer the fingerprint but I use both and they are both good. The phone looks sexy as hell too. But it's a fingerprint magnet, so buy a clear case in addition since UK models don't get cases. And oo charges really fast too. ","Product, Part",Positive|
+| The software updates for the Huawei mate 30 pro are really annoying.                                                                     ,Product      ,Negative|
+| The charging port of the Huawei p40 lite got damaged after just a month of use.                                                          ,"Product, Part",Negative|
+| I can't wait to get my hands on the new iPhone 12 Pro Max! 📱                                                                            ,Product      ,Positive|
+| The camera quality of the OnePlus 8T is unbeatable.                                                                                     ,"Product, Part",Positive|
+"| After updating my Samsung Galaxy Note 10, the battery life has significantly improved.                                                   ",Product      ,Positive|
+| The screen display of the LG G8 ThinQ is very vibrant and sharp.                                                                        ,"Product, Part",Positive|
+| The speaker volume of the Xiaomi Mi 10 is disappointingly low.                                                                          ,"Product, Part",Negative|
+| My friend is selling his Google Pixel 4a because he doesn't like the camera quality.                                                     ,"Product, Part",Negative|
+| I accidentally dropped my Motorola Edge+ and now the screen is cracked.                                                                  ,"Product, Part",Negative|
+| The speakerphone feature of the Blackberry Key2 is very convenient for conference calls.                                                ,"Product, Part",Positive|
+| The Oppo Find X2 Pro has the fastest charging speed I've ever seen on a phone.                                                           ,"Product, Part",Positive|
+| The Vivo V20 Pro has a sleek and elegant design that catches everyone's eye.                                                             ,"Product, Part",Positive|
+| The battery life of the Sony Xperia 5 II is quite disappointing.                                                                         ,"Product, Part",Negative|
+| My old iPhone SE still works perfectly after all these years.                                                                            ,Product      ,Positive|
+| The performance of the Nokia 9 PureView is lagging behind other flagship phones in the market.                                          ,Product      ,Negative|
+| Just got my hands on the new Samsung Galaxy S21 Ultra! 📱🔥                            ,Product     ,Positive|
+| This phone IS AWEEESOME FOR THE PRICE. I got the peacock blue p30 lite for £180.        ,Product     ,Positive|
+| The phone has great battery life.                                                       ,Part        ,Positive|
+| I can play games and it will genuinely last for a long time.                            ,Part        ,Positive|
+| The fingerprint scanner is instant! Like no lag when using it.                          ,Part        ,Positive|
+"| The face rec is decent too, I prefer the fingerprint but I use both and they both good.",Part        ,Positive|
+| The phone looks sexy as hell too.                                                       ,Part        ,Positive|
+"| But its a fingerprint magnet, so buy a clear case in addition since UK models dont get cases.",Part  ,Positive|
+| And oo charges really fast too.                                                        ,Part        ,Positive|
+| My friend plans to fix his old Huawei p20 phone.                                        ,Product     ,Neutral |
+| Mic of that phone easily goes faulty.                                                   ,Part        ,Negative|
+| The camera quality on my old iPhone 7 plus is top-notch!                                                          ,Part        ,Positive|
+"| Just pre-ordered the new Google Pixel 6, can't wait to test out the features!                                    ",Product     ,Neutral |
+| The battery life of my Samsung Galaxy Note 10+ has been disappointing lately.                                     ,Part        ,Negative|
+| The screen resolution on my old LG G8 ThinQ was simply stunning.                                                 ,Part        ,Positive|
+"| Received the latest software update on my Google Pixel 4 XL, seems to be running smoother now.                   ",Product     ,Neutral |
+| 🤳Taking selfies on the front camera of my Samsung Galaxy S20 FE is a breeze!                                     ,Part        ,Positive|
+| The storage capacity of my iPhone 11 Pro Max is just not enough for all my photos and videos.                     ,Part        ,Negative|
+| Excited to try out the new features on the upcoming release of the iPhone 13.                                     ,Product     ,Neutral |
+"| My old Motorola G7 Power has been acting up lately, the performance is definitely lacking.                        ",Part        ,Negative|
+| Can't believe how fast the charging speed is on my new Xiaomi Mi 11 Ultra! ⚡                                    ,Part        ,Positive|
+| The design of the Oppo Find X3 Pro is truly unique and eye-catching.                                             ,Part        ,Positive|
+| 📸The camera quality on the Sony Xperia 1 III is unmatched by any other smartphone!                              ,Part        ,Positive|
+"| Looking to upgrade to the latest iPhone SE, but not sure if it's worth the investment.                            ",Product     ,Neutral |
+"| The speakers on my old BlackBerry Key2 are starting to crackle, time for a replacement.                           ",Part        ,Negative|
+| 📞Just got the new Google Pixel 5a and the call quality is crystal clear!                                         ,Part        ,Positive|
+| The price of the new Samsung Galaxy Z Fold 3 is way too high for the average consumer.                            ,Product     ,Negative|
+| Just bought the new iPhone 12 and the camera quality is outstanding! 📸🔥                                               ,Product  ,Positive|
+| The battery life of my Samsung Galaxy Note 20 Ultra is disappointing 😞                                                    ,Product  ,Negative|
+"| The speaker of my OnePlus 8 Pro is so loud and clear, love it! 🎵🔊                                                     ",Part     ,Positive|
+| My experience with the Xiaomi Mi 10 Pro has been exceptional.                                                            ,Product  ,Positive|
+| The software updates for my Motorola Edge+ are always delayed.                                                           ,Product  ,Negative|
+| Can't wait to get my hands on the new Oppo Find X3 Pro! 🙌📱                                                            ,Product  ,Positive|
+| The front camera of my LG Velvet 5G has a wide-angle lens for great selfies.                                              ,Part     ,Positive|
+| The design of the Sony Xperia 1 II is sleek and stylish.                                                                ,Product  ,Positive|
+| The performance of the Asus ROG Phone 5 is unmatched in gaming.                                                         ,Product  ,Positive|
+| The fingerprint sensor of the Blackberry Key2 is not very responsive.                                                    ,Part     ,Negative|
+| The build quality of the HTC U12+ is solid and durable.                                                                 ,Part     ,Positive|
+| The operating system of the ZTE Axon 30 Ultra is slow and laggy.                                                        ,Product  ,Negative|
+| Just got my hands on the new Google Pixel 6 Pro and I'm already impressed! 📸🔥                                          ,Product  ,Positive|
+| The battery of my Xiaomi Redmi Note 9 drains quickly even with minimal usage.                                            ,Product  ,Negative|
+| The speakerphone on my Huawei Mate 40 Pro is not working properly.                                                       ,Part     ,Negative|
+| The Realme X50 Pro has a fast charging feature that is incredibly convenient.                                            ,Part     ,Positive|
+| The camera performance of the Vivo X60 Pro+ in low light conditions is exceptional.                                      ,Part     ,Positive|
+| The 5G connectivity on the OnePlus 9 Pro is unreliable in certain areas.                                                 ,Part     ,Negative|
+"| Love the design, but the SPEAKER is terrible...😂😂🙈🙈                                             ",Part         ,Negative|
+| Memory on phone - amazing. Battery life and how quickly it charges - amazing.                     ,Part         ,Positive|
+| Fingerprint scanner - amazing. In fact amazing is just an understatement.                        ,Part         ,Positive|
+| I have always loved Huawei phones since getting my first one back in Spring 2017.                ,Product      ,Positive|
+"| Literally, what more can I say? I have had this phone for 6 months and it is still going strong.  ",Product      ,Positive|
+| I am so happy with my purchase :)                                                               ,Neutral      ,Positive|
+| Mic of that phone  !  &……* @@@@ easily goes faulty.                                              ,Part         ,Negative|
+| Just got my hands on the new Samsung Galaxy S21 Ultra! 📱🔥                                      ,Product      ,Positive|
+| This phone IS AWEEESOME FOR THE PRICE. I got the peacock blue p30 lite for £180.                  ,Product      ,Positive|
+| The phone has great battery life.                                                               ,Part         ,Positive|
+| The fingerprint scanner is instant! Like no lag when using it.                                    ,Part         ,Positive|
+"| The face rec is decent too, I prefer the fingerprint but I use both and they both good.           ",Part         ,Positive|
+| And oo charges really fast too.                                                                ,Part         ,Positive|
+| My friend plans to fix his old Huawei p20 phone.                                                 ,Product      ,Neutral|
+| Mic of that phone easily goes faulty.                                                            ,Part         ,Negative|
+| Just purchased the new iPhone 12 Pro Max and I am loving the camera quality!                                                ,"Product, Part  ",Positive|
+| The battery life of my old Samsung Galaxy S9 is slowly deteriorating.                                                        ,Part          ,Negative|
+"| Wow, the Google Pixel 5's screen resolution is amazing!                                                                     ","Product, Part  ",Positive|
+| The volume button on my Xiaomi Redmi Note 8 is not functioning properly.                                                     ,Part          ,Negative|
+| The camera on the Oppo Find X2 Pro takes stunning photos.                                                                   ,"Product, Part  ",Positive|
+| My Nokia 3310 still works like a charm after all these years.                                                                ,Product       ,Positive|
+| The touch screen sensitivity on my Motorola Edge+ is top-notch.                                                              ,Part          ,Positive|
+| I can't stand the slow charging speed of the OnePlus 8T.                                                                     ,Part          ,Negative|
+| The camera lenses on the Sony Xperia 1 II are superb.                                                                        ,"Product, Part  ",Positive|
+| The power button on the LG Velvet is a bit too sensitive.                                                                    ,Part          ,Negative|
+| 📱Just pre-ordered the new iPhone 13 Pro and I can't wait to try out the new features!                                        ,Product       ,Positive|
+| The speaker quality on the Blackberry Key2 is disappointing.                                                                 ,Part          ,Negative|
+| I'm impressed by the design and build quality of the ASUS ROG Phone 5.                                                       ,"Product, Part  ",Positive|
+| The camera zoom on the Xiaomi Mi 11 Ultra is unbelievable.                                                                   ,"Product, Part  ",Positive|
+| My old Huawei Mate 20 Pro is starting to show signs of wear and tear.                                                       ,Product       ,Negative|
+| The Motorola Razr's foldable screen is innovative but prone to scratches.                                                    ,"Product, Part  ",Neutral |
+| The performance of the Google Pixel 4a is exceptional for its price.                                                         ,"Product, Part  ",Positive|
+| The battery capacity of the Samsung Galaxy A51 is insufficient for heavy users.                                              ,Part          ,Negative|
+| The build quality of the ZTE Axon 20 5G is questionable.                                                                     ,Product       ,Negative|
+| The haptic feedback on the Vivo X60 Pro+ is very satisfying.                                                                 ,Part          ,Positive|
+| The battery life of my iPhone X is just terrible.                                                        ,Part             ,Negative |
+| Can't wait to get my hands on the new Google Pixel 6. 📱                                                 ,Product          ,Positive |
+| The camera quality on my old Samsung Galaxy S8 is still top-notch.                                       ,Part             ,Positive |
+| #InLove with my new OnePlus 9 Pro! The display is stunning.                                              ,"Product, Part    ",Positive |
+"| Just bought the latest iPhone 13, and the speed is incredible.                                           ",Product          ,Positive |
+| The screen on my Huawei Mate 20 Pro cracked easily.                                                     ,Part             ,Negative |
+| The design of the Xiaomi Mi 11 Ultra is simply breathtaking.                                             ,Part             ,Positive |
+| ⚡️⚡️ The battery on my Samsung Galaxy Note 10+ drains way too quickly.                                   ,Part             ,Negative |
+| My friend is thinking about upgrading to the new Sony Xperia 1 III.                                       ,Product          ,Neutral  |
+| The performance of the Google Pixel 5 is disappointing.                                                  ,Product          ,Negative |
+| The volume button on my Motorola Edge keeps getting stuck.                                               ,Part             ,Negative |
+| #Excited to try out the camera on the new iPhone 12 Pro Max.                                             ,"Product, Part    ",Positive |
+| The sound quality on my old LG V30 is still impressive.                                                  ,Part             ,Positive |
+"| My Blackberry Key2 is a reliable workhorse, but the camera is lacking.                                    ","Product, Part    ",Neutral  |
+| I love the color options available for the Oppo Find X3 Pro.                                             ,Part             ,Positive |
+| The speaker on my Asus ROG Phone 5 is the best I've ever heard on a smartphone.                          ,Part             ,Positive |
+| The battery capacity of the Xiaomi Redmi Note 9 is surprisingly long-lasting.                            ,Part             ,Positive |
+| Can't believe how fast the charging is on the new Vivo X60 Pro+.                                         ,Part             ,Positive |
+| The software updates on my old HTC U12+ were always slow and buggy.                                      ,Part             ,Negative |
+| The camera setup on the new Sony Xperia 5 III is quite impressive.                                       ,Part             ,Positive |
+"| Love the design, but the SPEAKER is terrible...😂😂🙈🙈                                                                           ",Part         ,Negative|
+"| Phone speed - amazing. Phone features - amazing. Phone design and colour - amazing. Memory on phone - amazing. Battery life and how quickly it charges - amazing. Fingerprint scanner - amazing. In fact amazing is just an understatement. I have always loved Huawei phones since getting my first one back in Spring 2017. I will try to hold out with Huawei for as long as possible (even if it means to continuously buy pre-May 2019 phones). Literally, what more can I say? I have had this phone for 6 months and it is still going strong. I am so happy with my purchase :) ","Product, Part",Positive|
+| Mic of that phone  !  &……* @@@@ easily goes faulty.                                                                             ,Part         ,Negative|
+| Just got my hands on the new Samsung Galaxy S21 Ultra! 📱🔥                                                                      ,Product      ,Positive|
+"| This phone IS AWEEESOME FOR THE PRICE. I got the peacock blue p30 lite for £180. The phone has great battery life. I can play games and it will genuinely last for a long time (ofc will vary from people and types of games and apps they use). The fingerprint scanner is instant! Like no lag when using it. The face rec is decent too, I prefer the fingerprint but I use both and they are both good. The phone looks sexy as hell too. But it's a fingerprint magnet, so buy a clear case in addition since UK models don't get cases. And oo charges really fast too.","Product, Part",Positive|
+"| This phone, with its 🔥camera quality, never fails to impress me.                                                                ","Product, Part",Positive|
+| The battery life of the phone is not satisfactory.                                                                                ,Part         ,Negative|
+| I can't believe how fast the processor on this phone is!                                                                         ,Part         ,Positive|
+| The screen on this phone cracked after a minor fall.                                                                             ,Part         ,Negative|
+| The new iPhone 12 Pro Max has a sleek design.                                                                                   ,Product      ,Neutral  |
+| My old Nokia 3310 still works like a charm.                                                                                     ,Product      ,Positive|
+| The speaker on my old Samsung phone stopped working.                                                                            ,Part         ,Negative|
+| The camera quality of this phone is exceptional.                                                                                ,Part         ,Positive|
+| I just upgraded to the latest Google Pixel phone and I am loving it.                                                           ,Product      ,Positive|
+| This phone has too many bloatware apps pre-installed.                                                                           ,Part         ,Negative|
+"| My friend gifted me a new Motorola Razr phone, and it's amazing.                                                                ",Product      ,Positive|
+| The volume button on this phone is not functioning properly.                                                                    ,Part         ,Negative|
+| The build quality of this phone is top-notch.                                                                                  ,Part         ,Positive|
+| The price of the iPhone 12 Pro is way too high.                                                                                ,Product      ,Negative|
+| I dropped my Xiaomi Mi 10 and the screen shattered.                                                                            ,"Product, Part",Negative|
+| I recently upgraded to the latest iPhone 12 and the camera quality is mind-blowing. 📸👌                                                                                                                                                                                                                                                                   ,"Product, Part  ",Positive|
+| Can't believe how fragile the screen of my old Samsung Galaxy S9 is. Just a slight drop and it shattered completely. 😔                                                                                                                                                                                                                                  ,"Product, Part  ",Negative|
+| The battery life of my Google Pixel 4a is exceptional. I can go a full day without needing to recharge.                                                                                                                                                                                                                                                 ,"Product, Part  ",Positive|
+| Loving the sleek design of the OnePlus 8 Pro. The curved edges give it a premium look.                                                                                                                                                                                                                                                                   ,"Product, Part  ",Positive|
+| The performance of my Motorola Edge+ has been disappointing lately. It lags even with simple tasks.                                                                                                                                                                                                                                                    ,"Product, Part  ",Negative|
+| Recently got my hands on the new Xiaomi Mi 11 and I'm impressed with its fast charging capabilities. ⚡                                                                                                                                                                                                                                                 ,"Product, Part  ",Positive|
+| The sound quality of the speakers on my old LG G6 is still top-notch after all these years. 🎵                                                                                                                                                                                                                                                            ,Part           ,Positive|
+| The Sony Xperia 1 III has a gorgeous display that makes watching videos a delight.                                                                                                                                                                                                                                                                       ,"Product, Part  ",Positive|
+| My friend's Blackberry Key2 has a unique physical keyboard that adds a retro charm to the device.                                                                                                                                                                                                                                                      ,"Product, Part  ",Positive|
+"| The volume buttons on my HTC U12+ have become unresponsive, making it hard to adjust the sound levels.                                                                                                                                                                                                                                                 ",Part           ,Negative|
+| Just received the new Oppo Find X3 Pro and the 120Hz refresh rate display is a game-changer.                                                                                                                                                                                                                                                           ,"Product, Part  ",Positive|
+| The design of the Huawei Mate 40 Pro is a bit outdated compared to the latest flagship models from other brands.                                                                                                                                                                                                                                      ,"Product, Part  ",Negative|
+"| The front-facing camera of my Vivo V20 takes stunning selfies, perfect for social media. 🤳                                                                                                                                                                                                                                                             ",Part           ,Positive|
+"| Despite its compact size, the performance of the Apple iPhone SE (2020) is on par with larger smartphones.                                                                                                                                                                                                                                             ","Product, Part  ",Positive|
+"| The speakerphone on my old Nokia 3310 still works flawlessly, a testament to its durability.                                                                                                                                                                                                                                                            ",Part           ,Positive|
+| The Redmi Note 9 Pro offers excellent value for money with its feature-packed design and performance.                                                                                                                                                                                                                                                 ,"Product, Part  ",Positive|
+"| My experience with the ASUS ROG Phone 5 has been a mixed bag. While the gaming performance is top-notch, the battery drains quickly during extended gaming sessions.                                                                                                                        ","Product, Part  ",Neutral  |
+| The ZTE Axon 20 5G has an innovative under-display selfie camera that provides a seamless viewing experience.                                                                                                                                                                                                                                          ,"Product, Part  ",Positive|
+"| The Realme X50 Pro 5G is a budget-friendly phone with flagship-level features, making it a great choice for tech enthusiasts.                                                                                                                                                                                                                            ","Product, Part  ",Positive|
+"| The Alcatel 1S has a basic camera setup that struggles in low-light conditions, resulting in grainy photos.                                                                                                                                                                                                                                             ","Product, Part  ",Negative|
+"| Finally upgraded to the latest iPhone 12, and it's amazing! ",Product        ,Positive|
+| The screen of my Samsung Galaxy Note 20 is cracked.         ,Part           ,Negative|
+| Loving the new Google Pixel 5 camera quality.               ,"Product, Part  ",Positive|
+| The battery life on my old Nokia 3310 is unbeatable.        ,Part           ,Positive|
+| My Blackberry keyboard is acting up again.                  ,Part           ,Negative|
+| The Motorola Razr is a sleek phone with a unique design.     ,"Product, Part  ",Positive|
+| Can't get enough of the OnePlus 8T's fast charging feature.  ,Part           ,Positive|
+| The speaker on my LG G8 ThinQ is not working properly.       ,Part           ,Negative|
+| The camera quality of my old Sony Xperia is exceptional.     ,Part           ,Positive|
+| The volume button on my HTC One M9 is stuck.                ,Part           ,Negative|
+| Bought the new Oppo Find X3 Pro and it exceeded my expectations.,Product,Positive|
+| The earpiece on my old ZTE Blade keeps cutting in and out.   ,Part           ,Negative|
+| Looking to upgrade my Apple Watch Series 3 to the latest model.,Product     ,Neutral|
+| The mic on my old Huawei Mate 20 Pro is starting to crackle. ,Part           ,Negative|
+| Excited to test out the 5G capabilities of the new Sony Xperia 1 III.,Product,Positive|
+| My old Samsung Galaxy S9 is freezing up constantly.          ,Part           ,Negative|
+| The Google Pixel 4a camera is perfect for capturing moments.,"Product, Part  ",Positive|
+| Can't seem to find a replacement battery for my old LG V20.  ,Part           ,Neutral|
+| The design of the new Xiaomi Redmi Note 10 is stunning.      ,Product        ,Positive|
+"| Love the design, but the SPEAKER is terrible...😂😂🙈🙈",Part,Negative |
+"| Phone speed - amazing. Phone features - amazing. Phone design and colour - amazing. Memory on phone - amazing. Battery life and how quickly it charges - amazing. Fingerprint scanner - amazing. In fact amazing is just an understatement. I have always loved Huawei phones since getting my first one back in Spring 2017. I will try to hold out with Huawei for as long as possible (even if it means to continuously buy pre-May 2019 phones). Literally, what more can I say? I have had this phone for 6 months and it is still going strong. I am so happy with my purchase :)","Product, Part",Positive |
+| Mic of that phone ! &……* @@@@ easily goes faulty.,Part,Negative |
+| Just got my hands on the new Samsung Galaxy S21 Ultra! 📱🔥,Product,Positive |
+"| This phone IS AWEEESOME FOR THE PRICE. I got the peacock blue p30 lite for £180. The phone has great battery life. I can play games and it will genuinely last for a long time (ofc will vary from people and types of games and apps they use). The fingerprint scanner is instant! Like no lag when using it. The face rec is decent too, I prefer the fingerprint but I use both and they both good. The phone looks sexy as hell too. But its a fingerprint magnet, so buy a clear case in addition since UK models don't get cases. And oo charges really fast too.","Product, Part",Positive |
+| Bought a new Apple iPhone 12 and the camera quality is top-notch.,"Product, Part",Positive |
+| The speaker volume of the Samsung Galaxy Note is disappointingly low.,"Product, Part",Negative |
+| Just updated my Google Pixel to the latest Android version and it's running smoother than ever.,Product,Positive |
+| The battery life of my old Motorola phone has been steadily decreasing over time.,"Product, Part",Negative |
+| Got the latest OnePlus 9 Pro and it's a game-changer in terms of speed and performance.,Product,Positive |
+| The charging port of my Xiaomi phone is loose and causing connectivity issues.,"Product, Part",Negative |
+"| My friend is selling his old LG phone, which has a cracked screen but still works perfectly.","Product, Part",Neutral |
+| Received the new Oppo Find X3 Pro and it exceeded all my expectations with its camera capabilities.,"Product, Part",Positive |
+"| The screen resolution of the Nokia 9 PureView is stunning, but the phone tends to overheat.","Product, Part",Negative |
+| Planning to upgrade to the latest Sony Xperia model as I've always been impressed with their build quality.,Product,Positive |
+"| The camera features of the Asus ROG Phone 5 are impressive, but the battery drains quickly during gaming sessions.","Product, Part",Negative |
+| Just purchased the Xiaomi Redmi Note 10 and the display quality is phenomenal for its price range.,"Product, Part",Positive |
+"| The sound quality of the HTC U12+ is exceptional, but the phone's software often crashes.","Product, Part",Negative |
+| Considering switching to the new Google Pixel 6 for its advanced AI capabilities and camera technology.,Product,Positive |
+"| The screen size of the Samsung Galaxy Fold is impressive, but the folding mechanism is prone to malfunctions.","Product, Part",Negative |
+| Just got my hands on the new Samsung Galaxy S21 Ultra! 📱🔥                                                                           ,Product           ,Positive|
+"| Phone speed - amazing. Phone features - amazing. Phone design and colour - amazing. Memory on phone - amazing. Battery life and how quickly it charges - amazing. Fingerprint scanner - amazing. In fact amazing is just an understatement. I have always loved Huawei phones since getting my first one back in Spring 2017. I will try to hold out with Huawei for as long as possible (even if it means to continuously buy pre-May 2019 phones). Literally, what more can I say? I have had this phone for 6 months and it is still going strong. I am so happy with my purchase :)","Product, Part     ",Positive|
+"| Love the design, but the SPEAKER is terrible...😂😂🙈🙈                                                                                ",Part              ,Negative|
+| Mic of that phone  !  &……* @@@@ easily goes faulty.                                                                                   ,Part              ,Negative|
+| Bought a Huawei p30 pro and found the camera terrific.                                                                                ,"Product, Part     ",Positive|
+| My friend plans to fix his old Huawei p20 phone.                                                                                      ,Product           ,Neutral |
+| The battery life on my iPhone XS is absolutely terrible.                                                                              ,Part              ,Negative|
+| The new Google Pixel 5 camera is a game-changer.                                                                                     ,"Product, Part     ",Positive|
+| My Samsung Galaxy Note 10 screen cracked easily.                                                                                     ,Part              ,Negative|
+| I love the feel of the OnePlus 8T in my hand.                                                                                        ,Part              ,Positive|
+| The speaker on the Motorola Edge+ phone is top-notch.                                                                                ,Part              ,Positive|
+| The Oppo Find X3 Pro has a stunning display.                                                                                         ,"Product, Part     ",Positive|
+| The LG Velvet has great battery life and performance.                                                                                ,"Product, Part     ",Positive|
+| The camera quality on the Xiaomi Mi 11 is exceptional.                                                                               ,"Product, Part     ",Positive|
+| My old iPhone 7's battery drains very quickly.                                                                                      ,Part              ,Negative|
+| The speakerphone on the Nokia 8.3 5G is disappointing.                                                                              ,Part              ,Negative|
+| The new OnePlus Nord N10 has a sleek design.                                                                                        ,"Product, Part     ",Positive|
+| The camera features on the Sony Xperia 1 II are impressive.                                                                         ,"Product, Part     ",Positive|
+| The microphone on the Google Pixel 4a has poor sound quality.                                                                        ,Part              ,Negative|
+| The battery life on the Huawei Mate 40 Pro is outstanding.                                                                           ,Part              ,Positive|
+"| Just upgraded to the latest iPhone 12 Pro Max, loving the camera quality!                                                 ","Product, Part  ",Positive |
+"| The screen on my old Samsung Galaxy S8 cracked, now I need to get it fixed.                                               ",Product        ,Neutral  |
+| The battery life of my Google Pixel 3 XL is surprisingly good.                                                           ,Part           ,Positive |
+| Received my new OnePlus 9 Pro yesterday and I'm blown away by the performance.                                            ,Product        ,Positive |
+| The speaker volume on my LG V60 ThinQ is disappointingly low.                                                            ,Part           ,Negative |
+"| Finally got my hands on the Xiaomi Redmi Note 10, and it's exceeding my expectations.                                      ",Product        ,Positive |
+| The charging port on my Motorola Edge+ is loose and unreliable.                                                          ,Part           ,Negative |
+"| Can't wait to try out the new Sony Xperia 1 III, heard great things about the camera.                                     ","Product, Part  ",Positive |
+| The screen display of my Oppo Find X3 Pro is stunning.                                                                  ,Part           ,Positive |
+| I accidentally dropped my Asus ROG Phone 5 and now the screen is cracked.                                                 ,"Product, Part  ",Negative |
+| The camera quality of my Blackberry Key2 is surprisingly good for an older model.                                        ,Part           ,Positive |
+"| Just got the latest Nokia 8.3 5G, loving the sleek design and smooth performance.                                         ",Product        ,Positive |
+| The fingerprint sensor on my ZTE Axon 30 Ultra is not very responsive.                                                   ,Part           ,Negative |
+| Excited to test out the camera features on the new Xiaomi Mi 11 Ultra.                                                   ,"Product, Part  ",Positive |
+| My old HTC U12+ has started to lag and freeze frequently.                                                               ,"Product, Part  ",Negative |
+| The display resolution on my Vivo X60 Pro+ is top-notch.                                                                ,Part           ,Positive |
+"| I'm thinking of upgrading to the new Realme GT 5G, anyone have any feedback on it?                                        ",Product        ,Neutral  |
+| The build quality of my Honor 20 is very durable and sturdy.                                                            ,Part           ,Positive |
+"| My old Alcatel 1X battery drains quickly, need to find a replacement soon.                                               ","Product, Part  ",Negative |
+| The performance of my Lenovo Legion Phone Duel 2 is unmatched in the gaming world.                                       ,Product        ,Positive |
+"| Love the design, but the SPEAKER is terrible...😂😂🙈🙈                                                                                       ",Part           ,Negative |
+"| Phone speed - amazing. Phone features - amazing. Phone design and colour - amazing. Memory on phone - amazing. Battery life and how quickly it charges - amazing. Fingerprint scanner - amazing. In fact amazing is just an understatement. I have always loved Huawei phones since getting my first one back in Spring 2017. I will try to hold out with Huawei for as long as possible (even if it means to continuously buy pre-May 2019 phones). Literally, what more can I say? I have had this phone for 6 months and it is still going strong. I am so happy with my purchase :)","Product, Part  ",Positive |
+| Mic of that phone  !  &……* @@@@ easily goes faulty.                                                                                        ,Part           ,Negative |
+| Just got my hands on the new Samsung Galaxy S21 Ultra! 📱🔥                                                                                ,Product        ,Positive |
+"| This phone IS AWEEESOME FOR THE PRICE. I got the peacock blue p30 lite for £180. The phone has great battery life. I can play games and it will genuinely last for a long time (ofc will vary from people and typea of games and apps they use). The fingerprint scanner is instant! Like no lag when using it. The face rec is decent too, I prefer the fingerprint but I use both and they both good. The phone looks sexy as hell too. But its a fingerprint magnet, so buy a clear case in addition since UK models dont get cases. And oo charges really fast too.","Product, Part  ",Positive |
+| The screen of my old iPhone 6s has started flickering.                                                                                     ,Part           ,Negative |
+| The battery life on my new Google Pixel 5 is impressive.                                                                                   ,Part           ,Positive |
+| Can't stand the speaker quality on this LG V40 ThinQ phone!                                                                               ,Part           ,Negative |
+| Bought the latest OnePlus 9 Pro and it exceeds all my expectations.                                                                       ,Product        ,Positive |
+| The camera features on the Oppo Find X3 Pro are outstanding.                                                                              ,"Product, Part  ",Positive |
+| The display of the Xiaomi Mi 11 is breathtaking.                                                                                           ,Part           ,Positive |
+| Received the new Sony Xperia 1 III as a gift and it's been a game-changer.                                                                  ,Product        ,Positive |
+| The battery drains quickly on my Motorola Edge+ phone.                                                                                    ,Part           ,Negative |
+| The speaker volume on the Nokia 8.3 5G is surprisingly loud.                                                                              ,Part           ,Positive |
+| Can't get enough of the Samsung Galaxy Note 20 Ultra's camera capabilities.                                                                ,Part           ,Positive |
+| The build quality of the Asus ROG Phone 5 is top-notch.                                                                                   ,Part           ,Positive |
+| My experience with the Blackberry Key2 has been disappointing overall.                                                                     ,Product        ,Negative |
+| The sound output on the Razer Phone 2 is unmatched in the smartphone industry.                                                             ,Part           ,Positive |
+| The design of the ZTE Axon 30 Ultra is unique and eye-catching.                                                                            ,Part           ,Positive |
+"| Planning to upgrade to the Apple iPhone 12 Pro Max soon, can't wait to experience the new features.                                         ",Product        ,Neutral |
+| The new iPhone 12 Pro Max has an amazing camera! 📷🔥,"Product, Part",Positive |
+| My old Samsung Galaxy S8 screen cracked easily.,"Product, Part",Negative |
+| 📱 Just pre-ordered the new Google Pixel 5! Excited for the new features.,Product,Positive |
+| The battery life of my Motorola phone is disappointing.,Part,Negative |
+| #TechTuesday Bought a new OnePlus 9 Pro and it's a game-changer!,"Product, Part",Positive |
+| The speaker quality on my Sony Xperia phone is top-notch.,Part,Positive |
+| Had to return my Xiaomi Redmi Note 8 due to a faulty charging port.,"Product, Part",Negative |
+| The design of the Oppo Find X3 Pro is sleek and modern.,"Product, Part",Positive |
+| @TechReviews The camera on the LG Velvet 5G is subpar compared to other models.,Part,Negative |
+| The Huawei Mate 40 Pro has incredible performance and speed.,"Product, Part",Positive |
+| Just got my hands on the new iPhone SE 2020! Loving the compact size.,Product,Positive |
+| The screen display of my old HTC One M9 started flickering randomly.,Part,Negative |
+| 📱🔥 The new Xiaomi Mi 11 is a powerhouse with its Snapdragon 888 processor.,"Product, Part",Positive |
+| #MobileMonday My experience with the BlackBerry Key2 keyboard has been disappointing.,Part,Negative |
+"| The battery capacity of the Realme X50 Pro is impressive, lasting all day.",Part,Positive |
+| @GadgetReviews The camera quality of the Vivo X60 Pro+ surpasses expectations.,Part,Positive |
+| The performance of the Asus ROG Phone 5 is unmatched in the gaming industry.,"Product, Part",Positive |
+| ⚡️ The charging speed of the Motorola Edge+ is lightning-fast!,Part,Positive |
+| My experience with the camera of the Nokia 9 PureView has been underwhelming.,Part,Negative |
+| Just upgraded to the new Samsung Galaxy Note20 Ultra and it's a beast! 🚀📱,Product,Positive |
+"| Just received my new iPhone 12 Pro Max, and the camera quality is outstanding! 📸                                               ","Product, Part",Positive |
+| The battery life of the Samsung Galaxy Note 20 is disappointing.                                                                 ,Product      ,Negative |
+| @#$%&* The screen on my Google Pixel 4a cracked within a week of use.                                                           ,Part         ,Negative |
+| Planning to upgrade to the latest OnePlus 9 soon.                                                                                ,Product      ,Neutral  |
+| The speakers on my old Sony Xperia Z3 have completely stopped working.                                                          ,Part         ,Negative |
+| I can't believe how fast the fingerprint scanner on my Xiaomi Mi 10 Pro is! 🚀                                                  ,Part         ,Positive |
+| The color options for the new Oppo Find X3 Pro are so vibrant and eye-catching.                                                  ,Product      ,Positive |
+| Received the new Motorola Edge 20 and the camera performance is average.                                                         ,"Product, Part",Neutral  |
+| The battery on my LG V60 ThinQ lasts for days without needing a charge.                                                         ,Part         ,Positive |
+| #disappointed with the low storage space on the Blackberry Key2.                                                                 ,Part         ,Negative |
+| Absolutely loving the design of the new Nokia 8.3 5G! It's sleek and modern.                                                    ,Product      ,Positive |
+| The sound quality on the Alcatel 3V is subpar compared to other phones in the same price range.                                   ,Part         ,Negative |
+| The Realme X50 Pro has an impressive display with vibrant colors.                                                                ,Part         ,Positive |
+| Can't wait to get my hands on the upcoming Xiaomi Redmi Note 10 series!                                                          ,Product      ,Neutral  |
+| The haptic feedback on the Huawei Mate 40 Pro is top-notch.                                                                      ,Part         ,Positive |
+| $%@#^ The charging port on my old HTC U11 is loose and doesn't connect properly.                                                 ,Part         ,Negative |
+| Excited to try out the new 5G capabilities on the upcoming Sony Xperia 1 III.                                                    ,Product      ,Neutral  |
+| The Oppo Reno 5 Pro 5G has a sleek design that feels premium in hand.                                                            ,Product      ,Positive |
+| The camera on the Vivo X60 Pro+ takes stunning photos in low-light conditions.                                                   ,Part         ,Positive |
+| The speaker quality on the ZTE Axon 20 5G is below average and lacks depth in sound.                                              ,Part         ,Negative |
+"| Love the design, but the SPEAKER is terrible...😂😂🙈🙈                                                                            ",Part           ,Negative|
+"| Phone speed - amazing. Phone features - amazing. Phone design and colour - amazing. Memory on phone - amazing. Battery life and how quickly it charges - amazing. Fingerprint scanner - amazing. In fact amazing is just an understatement. I have always loved Huawei phones since getting my first one back in Spring 2017. I will try to hold out with Huawei for as long as possible (even if it means to continuously buy pre-May 2019 phones). Literally, what more can I say? I have had this phone for 6 months and it is still going strong. I am so happy with my purchase :)","Product, Part  ",Positive|
+| Mic of that phone ! &……* @@@@ easily goes faulty.                                                                                ,Part           ,Negative|
+| Just got my hands on the new Samsung Galaxy S21 Ultra! 📱🔥                                                                       ,Product        ,Positive|
+"| This phone IS AWEEESOME FOR THE PRICE. I got the peacock blue p30 lite for £180. The phone has great battery life. I can play games and it will genuinely last for a long time (ofc will vary from people and typea of games and apps they use). The fingerprint scanner is instant! Like no lag when using it. The face rec is decent too, I prefer the fingerprint but I use both and they both good. The phone looks sexy as hell too. But its a fingerprint magnet, so buy a clear case in addition since UK models dont get cases. And oo charges really fast too.","Product, Part  ",Positive|
+| The 📱 screen of my iPhone X is cracked.                                                                                        ,Part           ,Negative|
+| New software update for the Samsung Galaxy Fold is now available.                                                                ,Product        ,Neutral |
+| The battery life on my Google Pixel 4a is disappointing.                                                                        ,Part           ,Negative|
+| Ordered the new OnePlus 9 Pro and it arrived in perfect condition.                                                             ,Product        ,Positive|
+| I can't stand the slow performance of the Motorola G8 Plus.                                                                     ,Part           ,Negative|
+| Excited to test the camera features on the Xiaomi Mi 11.                                                                        ,"Product, Part  ",Positive|
+| The speakers on the HTC U12+ provide excellent sound quality.                                                                   ,Part           ,Positive|
+| My friend recommended the Oppo Find X3 Neo and I'm considering buying it.                                                      ,Product        ,Neutral |
+| The screen resolution of the LG Velvet is outstanding.                                                                          ,Part           ,Positive|
+| Had a bad experience with the microphone of the Sony Xperia 5 II.                                                               ,Part           ,Negative|
+"| Just pre-ordered the new iPhone 13 Pro Max, can't wait to try it out.                                                           ",Product        ,Positive|
+| I dislike the camera quality of the Nokia 8.3 5G.                                                                               ,Part           ,Negative|
+| The battery life of the BlackBerry Key2 is surprisingly long-lasting.                                                           ,Part           ,Positive|
+"| After the recent update, my Xiaomi Redmi Note 10 Pro is running smoother than ever.                                             ","Product, Part  ",Positive|
+| The performance of the camera app on the Google Pixel 5 is exceptional.                                                         ,Part           ,Positive|
+| The new iPhone 13 Pro Max is finally here and it's a game-changer.                                                                            ,Product          ,Positive |
+| The screen of my Samsung Galaxy S10 cracked after a small fall.                                                                               ,Part             ,Negative |
+"| Just pre-ordered the latest Google Pixel 6, can't wait to test out the new features.                                                          ",Product          ,Positive |
+| The battery life of my old Motorola phone is surprisingly good even after years of use.                                                        ,Part             ,Positive |
+| Received my new OnePlus 9 Pro today and I'm already impressed by the camera quality.                                                          ,"Product, Part    ",Positive |
+| I accidentally dropped my Xiaomi Redmi Note 8 in water and now it won't turn on.                                                               ,"Product, Part    ",Negative |
+| 📱 My Blackberry Key2 keyboard is starting to get sticky and it's affecting my typing speed.                                                 ,"Product, Part    ",Negative |
+"| The speaker of my LG G8 ThinQ phone suddenly stopped working, very disappointed.                                                              ",Part             ,Negative |
+"| Thinking about upgrading to the latest Apple Watch Series 7, the health tracking features seem promising.                                      ",Product          ,Positive |
+| The selfie camera of my Oppo Find X3 Pro takes amazing photos even in low light conditions.                                                  ,Part             ,Positive |
+"| Samsung Galaxy Z Fold 3 is a masterpiece of technology, the folding screen is truly innovative.                                               ","Product, Part    ",Positive |
+| My Huawei Mate 20 Pro is acting up and the touchscreen is not responding properly.                                                             ,"Product, Part    ",Negative |
+| The charging port of my Sony Xperia 1 II is loose and it's causing issues with charging.                                                       ,Part             ,Negative |
+"| Bought a refurbished Google Pixel 4 XL and it's as good as new, very happy with my purchase.                                                   ",Product          ,Positive |
+"| Can't wait to try out the new 5G capabilities of the upcoming Xiaomi Mi 11 Ultra, the speed will be incredible.                               ",Product          ,Positive |
+"| The software update on my Motorola Razr caused some performance issues, hoping for a fix soon.                                                ",Part             ,Negative |
+"| Just got my hands on the limited edition Redmi K40 Gaming phone, the design is out of this world.                                             ",Product          ,Positive |
+"| My old Nokia 3310 has sentimental value, even though it's not as advanced as modern smartphones.                                             ",Product          ,Neutral   |
+| The front camera of my Vivo V21 5G takes stunning selfies with great detail and clarity.                                                      ,Part             ,Positive |
+"| The navigation system on my Black Shark 4 Pro keeps crashing, making it difficult to use the phone effectively.                              ","Product, Part    ",Negative |
+| Just received my new iPhone 12 Pro Max and the camera quality is outstanding! 📷✨                                                                             ,"Product, Part ",Positive |
+| The screen on my Samsung Galaxy Fold started flickering after a few months of use.                                                                            ,Part         ,Negative |
+"| Can't wait to upgrade to the latest Google Pixel 5, heard great things about the camera.                                                                      ","Product, Part ",Positive |
+"| My old Nokia 3310 still works like a charm, such a durable phone.                                                                                             ",Product      ,Neutral  |
+"| The battery life of my Motorola Razr is disappointing, barely lasts half a day.                                                                               ",Part         ,Negative |
+"| Bought a refurbished iPhone XS and it looks brand new, very satisfied with my purchase.                                                                       ","Product, Part ",Positive |
+"| The volume buttons on my LG V40 ThinQ stopped working, frustrating experience.                                                                               ",Part         ,Negative |
+"| Planning to switch to the new OnePlus 9 Pro, excited to see the improvements over my current phone.                                                          ",Product      ,Neutral  |
+"| The Huawei Mate 20 Pro has been a reliable companion for the past year, no major issues to report.                                                           ","Product, Part ",Positive |
+"| The camera of the Xiaomi Mi 11 Ultra is unparalleled, worth every penny.                                                                                      ","Product, Part ",Positive |
+"| My Sony Xperia 1 II froze unexpectedly, had to force restart multiple times.                                                                                  ",Part         ,Negative |
+"| Excited to try out the new features on the upcoming iPhone 13, hoping for some innovative upgrades.                                                           ",Product      ,Neutral  |
+"| The speaker quality on my Pixel 4a is impressive, great for listening to music.                                                                               ",Part         ,Positive |
+| Got the new Samsung Galaxy Note 20 and the stylus is a game-changer for productivity.                                                                         ,"Product, Part ",Positive |
+"| The touch screen of my Blackberry Key2 occasionally becomes unresponsive, frustrating to use.                                                                 ",Part         ,Negative |
+"| Looking forward to testing the battery life on the latest Oppo Find X3, hoping it lasts a full day of heavy usage.                                             ","Product, Part ",Neutral  |
+"| The performance of my HTC U12+ has deteriorated over time, experiencing lag and delays in opening apps.                                                       ",Part         ,Negative |
+"| The Realme X50 Pro 5G is a powerhouse, blazing fast performance and a great camera setup.                                                                     ","Product, Part ",Positive |
+"| The fingerprint sensor on my Asus ROG Phone 5 works flawlessly, unlocks in an instant.                                                                         ",Part         ,Positive |
+"| The software updates on my Essential Phone PH-1 have been inconsistent, causing stability issues and crashes.                                                 ",Part         ,Negative |
+| Bought a Samsung Galaxy S20 and the battery life is phenomenal.                          ,Product          ,Positive|
+| The screen on my iPhone XS Max cracked when it fell on the pavement.                     ,"Product, Part    ",Negative|
+| Just upgraded to the latest iPhone 12 Pro Max and the camera quality is outstanding.      ,"Product, Part    ",Positive|
+| My old Nokia phone's charging port stopped working after a few years.                    ,Part             ,Negative|
+| The new Google Pixel 5 has a sleek design and impressive features.                       ,Product          ,Positive|
+| The speaker on my LG G8 ThinQ started crackling after only a few months of use.           ,Part             ,Negative|
+| Finally got my hands on the OnePlus 8T and the performance is top-notch.                  ,Product          ,Positive|
+| The volume buttons on my Motorola phone are not responding properly.                      ,Part             ,Negative|
+| I'm thinking of getting the latest Sony Xperia for its stunning display.                 ,Product          ,Neutral |
+| My Blackberry's keyboard keys are too stiff to type comfortably.                         ,Part             ,Negative|
+| The new Xiaomi Mi 11 has a powerful processor and excellent camera capabilities.         ,"Product, Part    ",Positive|
+| My ZTE phone's screen cracked even though it was in a protective case.                   ,Part             ,Negative|
+| Excited to try out the new Oppo Find X3 Pro with its innovative features.                 ,Product          ,Positive|
+| The headphone jack on my Asus Zenfone stopped working suddenly.                          ,Part             ,Negative|
+| The Realme X7 Pro offers great value for its price with impressive performance.          ,Product          ,Positive|
+| The power button on my HTC phone is loose and doesn't work properly.                     ,Part             ,Negative|
+| Looking forward to testing the new Motorola Edge+ for its advanced camera technology.    ,"Product, Part    ",Positive|
+| My old Alcatel phone's battery drains quickly even with minimal usage.                   ,Part             ,Negative|
+| The Huawei Mate 40 Pro has an elegant design and exceptional camera capabilities.        ,"Product, Part    ",Positive|
+| The volume on my Sony Xperia phone randomly increases on its own.                        ,Part             ,Negative|
+| Just got my hands on the new Samsung Galaxy S21 Ultra! 📱🔥                                                                    ,Product       ,Positive |
+| This phone IS AWEEESOME FOR THE PRICE. I got the peacock blue p30 lite for £180. The phone has great battery life.               ,Product       ,Positive |
+| The fingerprint scanner is instant! Like no lag when using it.                                                                 ,Part          ,Positive |
+"| The face rec is decent too, I prefer the fingerprint but I use both and they both good.                                         ",Part          ,Positive |
+"| The phone looks sexy as hell too. But its a fingerprint magnet, so buy a clear case in addition since UK models dont get cases.",Part          ,Positive |
+| And oo charges really fast too.                                                                                                 ,Part          ,Positive |
+| Bought a Huawei p30 pro and found the camera terrific.                                                                         ,"Product, Part ",Positive |
+| My friend plans to fix his old Huawei p20 phone.                                                                                ,Product       ,Neutral  |
+| Mic of that phone easily goes faulty.                                                                                           ,Part          ,Negative |
+| Mic of that phone  !  &……* @@@@ easily goes faulty.                                                                            ,Part          ,Negative |
+"| Love the design, but the SPEAKER is terrible...😂😂🙈🙈                                                                          ",Part          ,Negative |
+| Can't believe how fast the OnePlus 9 Pro charges! 🚀                                                                           ,"Product, Part ",Positive |
+| The iPhone 12 Pro Max is overrated. Battery drains quickly and camera quality is disappointing.                                 ,"Product, Part ",Negative |
+| Iphone SE 2020 is the best budget-friendly option out there.                                                                   ,Product       ,Positive |
+| Screen of the Samsung Galaxy Note 20 is prone to scratches.                                                                    ,Part          ,Negative |
+| My Google Pixel 5 is lagging and freezing frequently.                                                                          ,Product       ,Negative |
+| The battery life of my old Motorola Moto G6 is still holding up well.                                                          ,Part          ,Positive |
+| The Redmi Note 9 Pro camera quality is surprisingly good for the price.                                                        ,Part          ,Positive |
+| Just upgraded to the new iPhone 13 and loving the improved camera quality.                                                     ,"Product, Part ",Positive |
+| The Oneplus Nord has excellent performance but lacks in the camera department.                                                  ,"Product, Part ",Negative |
+| Just got my hands on the new Samsung Galaxy S21 Ultra! 📱🔥                                                           ,Product        ,Positive |
+| This phone IS AWEEESOME FOR THE PRICE. I got the peacock blue p30 lite for £180.                                     ,Product        ,Positive |
+| The phone has great battery life. I can play games and it will genuinely last for a long time.                       ,Part           ,Positive |
+| The fingerprint scanner is instant! Like no lag when using it.                                                      ,Part           ,Positive |
+"| The face rec is decent too, I prefer the fingerprint but I use both and they are both good.                          ",Part           ,Positive |
+"| The phone looks sexy as hell too. But its a fingerprint magnet, so buy a clear case.                                 ",Part           ,Positive |
+| The charges really fast too.                                                                                        ,Part           ,Positive |
+"| Love the design, but the SPEAKER is terrible...😂😂🙈🙈                                                               ",Part           ,Negative |
+| Mic of that phone easily goes faulty.                                                                               ,Part           ,Negative |
+| Bought a Huawei p30 pro and found the camera terrific.                                                             ,"Product, Part  ",Positive |
+| My friend plans to fix his old Huawei p20 phone.                                                                    ,Product        ,Neutral  |
+| Mic of that phone easily goes faulty.                                                                               ,Part           ,Negative |
+| Phone speed - amazing.                                                                                              ,Part           ,Positive |
+| Phone features - amazing.                                                                                           ,Part           ,Positive |
+| Phone design and colour - amazing.                                                                                  ,Part           ,Positive |
+| Memory on phone - amazing.                                                                                          ,Part           ,Positive |
+| Battery life and how quickly it charges - amazing.                                                                  ,Part           ,Positive |
+| Fingerprint scanner - amazing.                                                                                      ,Part           ,Positive |
+| I have always loved Huawei phones since getting my first one back in Spring 2017.                                   ,Product        ,Positive |
+| I will try to hold out with Huawei for as long as possible.                                                         ,Product        ,Neutral  |
+| Bought a Huawei p30 pro and found the camera terrific.                                                                                      ,"Product, Part ",Positive |
+| My friend plans to fix his old Huawei p20 phone.                                                                                            ,Product       ,Neutral  |
+| Mic of that phone easily goes faulty.                                                                                                       ,Part          ,Negative |
+| Just got my hands on the new Samsung Galaxy S21 Ultra! 📱🔥                                                                                 ,Product       ,Positive |
+| This phone IS AWEEESOME FOR THE PRICE. I got the peacock blue p30 lite for £180. The phone has great battery life.                           ,"Product, Part ",Positive |
+| I can play games and it will genuinely last for a long time (ofc will vary from people and types of games and apps they use).               ,None          ,Neutral  |
+| The fingerprint scanner is instant! Like no lag when using it. The face rec is decent too.                                                  ,Part          ,Positive |
+"| The phone looks sexy as hell too. But it's a fingerprint magnet, so buy a clear case in addition since UK models don't get cases.           ",Part          ,Neutral  |
+| I have always loved Huawei phones since getting my first one back in Spring 2017.                                                          ,Product       ,Positive |
+| I will try to hold out with Huawei for as long as possible (even if it means to continuously buy pre-May 2019 phones).                     ,Product       ,Neutral  |
+| I have had this phone for 6 months and it is still going strong. I am so happy with my purchase :)                                          ,None          ,Positive |
+"| Love the design, but the SPEAKER is terrible...😂😂🙈🙈                                                                                     ",Part          ,Negative |
+| Phone speed - amazing. Phone features - amazing. Phone design and color - amazing. Memory on phone - amazing.                               ,None          ,Positive |
+| Battery life and how quickly it charges - amazing. Fingerprint scanner - amazing.                                                           ,Part          ,Positive |
+"| Amazing is just an understatement. Literally, what more can I say?                                                                        ",None          ,Positive |
+| This phone IS AWEESOME FOR THE PRICE.                                                                                                       ,None          ,Positive |
+| The phone has great battery life.                                                                                                           ,None          ,Positive |
+| The fingerprint scanner is instant!                                                                                                        ,Part          ,Positive |
+| The face recognition is decent too.                                                                                                         ,None          ,Positive |
+| The phone looks sexy as hell too. But it's a fingerprint magnet.                                                                           ,Part          ,Neutral  |
+| The battery life on this Samsung Note 10 is disappointing.                                                                   ,Part        ,Negative|
+| Can't believe how fast the processor is on the new Google Pixel 5. 😲                                                        ,Part        ,Positive|
+| The screen resolution of my old LG G6 phone is still impressive.                                                             ,Part        ,Neutral |
+| Love the sleek design of the Oppo Find X2 Pro.                                                                                ,Product     ,Positive|
+| The speaker quality of the HTC U11+ is below average.                                                                        ,Part        ,Negative|
+| The Motorola Razr flip phone has a unique folding mechanism.                                                                 ,Part        ,Neutral |
+| The camera features on the Sony Xperia 1 II are top-notch.                                                                    ,Part        ,Positive|
+| 📱💥 Bought the new iPhone SE 2020 and I'm loving it!                                                                          ,Product     ,Positive|
+| The microphones on the Nokia 9 PureView easily pick up background noise.                                                     ,Part        ,Negative|
+| The performance of the Blackberry Key2 is sluggish compared to modern smartphones.                                           ,Product     ,Negative|
+| The Google Pixel 4 XL has a stunning display.                                                                                ,Product     ,Positive|
+| The Huawei Mate 30 Pro has an amazing battery life.                                                                          ,Product     ,Positive|
+| The Motorola Edge+ has a premium feel with its curved display.                                                                ,Product     ,Positive|
+| The camera on the Xiaomi Mi 10 Pro produces stunning photos.                                                                 ,Part        ,Positive|
+| The OnePlus Nord offers excellent value for its price.                                                                       ,Product     ,Positive|
+| The Samsung Galaxy Fold is innovative but lacks durability.                                                                  ,Product     ,Neutral |
+| The Black Shark 3 Pro is a powerhouse for mobile gaming enthusiasts.                                                         ,Product     ,Positive|
+| The new iPhone 12 Pro Max comes with a stunning display.                                                                        ,Product          ,Positive|
+| The battery life of my old Samsung Galaxy S9 has been disappointing.                                                             ,Part             ,Negative|
+"| My iPhone 11 has a great camera, but the screen resolution could be better.                                                      ","Product, Part    ",Neutral |
+"| The speaker on my Google Pixel 4a is top-notch, perfect for watching movies.                                                     ",Part             ,Positive|
+| I just got the new OnePlus 9 Pro and it's a game-changer in terms of performance.                                                ,Product          ,Positive|
+| The design of the Huawei Mate 20 Pro is sleek and modern.                                                                       ,Product          ,Positive|
+| My Xiaomi Mi 10T Lite's charging port is starting to get loose.                                                                  ,Part             ,Negative|
+| The Google Pixel 5 has excellent software features that enhance the user experience.                                            ,"Product, Part    ",Positive|
+| The front camera on my Oppo Reno 4 is not as good as I expected.                                                                 ,Part             ,Negative|
+"| My Sony Xperia 1 II has a gorgeous 4K display, perfect for watching videos.                                                     ",Part             ,Positive|
+| The battery life of my old iPhone 7 Plus has significantly decreased over time.                                                  ,Part             ,Negative|
+| The Samsung Galaxy A71 has a beautiful AMOLED display that provides vibrant colors.                                              ,"Product, Part    ",Positive|
+| The volume buttons on my LG Velvet keep getting stuck.                                                                          ,Part             ,Negative|
+"| The performance of the Motorola Edge+ is impressive, especially when gaming.                                                    ",Product          ,Positive|
+"| My Nokia 8.3 5G has a durable build, but the camera quality could be better.                                                     ","Product, Part    ",Neutral |
+| The Vivo X50 Pro's camera features are innovative and produce stunning photos.                                                   ,Part             ,Positive|
+| The speaker quality on the Blackberry Key2 is below average.                                                                    ,Part             ,Negative|
+| The Realme 7 Pro offers fast charging capabilities that are perfect for busy individuals.                                        ,"Product, Part    ",Positive|
+| My ZTE Axon 10 Pro's screen has started to develop a strange green tint.                                                         ,Part             ,Negative|
+| The performance of the Asus ROG Phone 5 is unmatched in the gaming industry.                                                     ,Product          ,Positive|
+|Bought a Huawei p30 pro and found the camera terrific.,"Product, Part",Positive |
+|My friend plans to fix his old Huawei p20 phone.,Product,Neutral |
+|Mic of that phone easily goes faulty.,Part,Negative |
+|Just got my hands on the new Samsung Galaxy S21 Ultra! 📱🔥,Product,Positive |
+|This phone IS AWEEESOME FOR THE PRICE.,Product,Positive |
+|The phone has great battery life.,Part,Positive |
+|The fingerprint scanner is instant!,Part,Positive |
+"|The face rec is decent too, I prefer the fingerprint but I use both and they both good.",Part,Positive |
+|The phone looks sexy as hell too.,Part,Positive |
+"|But its a fingerprint magnet, so buy a clear case in addition since UK models dont get cases.",Part,Neutral |
+|And oo charges really fast too.,Part,Positive |
+|Mic of that phone  !  &……* @@@@ easily goes faulty.,Part,Negative |
+"|Love the design, but the SPEAKER is terrible...😂😂🙈🙈",Part,Negative |
+|Phone speed - amazing. Phone features - amazing.,Part,Positive |
+|Phone design and colour - amazing.,Part,Positive |
+|Memory on phone - amazing.,Part,Positive |
+|Battery life and how quickly it charges - amazing.,Part,Positive |
+|In fact amazing is just an understatement.,-,Positive |
+|I have always loved Huawei phones since getting my first one back in Spring 2017.,Product,Positive |
+|I will try to hold out with Huawei for as long as possible (even if it means to continuously buy pre-May 2019 phones).,Product,Positive |
+| Just got my hands on the new Samsung Galaxy S21 Ultra! 📱🔥,Product,Positive |
+"| Phone speed - amazing. Phone features - amazing. Phone design and colour - amazing. Memory on phone - amazing. Battery life and how quickly it charges - amazing. Fingerprint scanner - amazing. In fact amazing is just an understatement. I have always loved Huawei phones since getting my first one back in Spring 2017. I will try to hold out with Huawei for as long as possible (even if it means to continuously buy pre-May 2019 phones). Literally, what more can I say? I have had this phone for 6 months and it is still going strong. I am so happy with my purchase :)","Product, Part",Positive |
+| Mic of that phone  !  &……* @@@@ easily goes faulty.,Part,Negative |
+"| Love the design, but the SPEAKER is terrible...😂😂🙈🙈",Part,Negative |
+| Bought a Huawei p30 pro and found the camera terrific.,"Product, Part",Positive |
+| My friend plans to fix his old Huawei p20 phone.,Product,Neutral |
+"| This phone IS AWEEESOME FOR THE PRICE. I got the peacock blue p30 lite for £180. The phone has great battery life. I can play games and it will genuinely last for a long time (ofc will vary from people and typea of games and apps they use). The fingerprint scanner is instant! Like no lag when using it. The face rec is decent too, I prefer the fingerprint but I use both and they both good. The phone looks sexy as hell too. But its a fingerprint magnet, so buy a clear case in addition since UK models dont get cases. And oo charges really fast too.","Product, Part",Positive |
+| The speaker quality of the Huawei phone is outstanding! 🎵🎶,Part,Positive |
+| The battery life on my old Samsung phone was absolutely dreadful. 😞,Part,Negative |
+| I just can't get enough of the amazing camera quality on the iPhone 12 Pro Max. 📸,Part,Positive |
+| The screen on the LG Velvet is just stunning. 🌟,Part,Positive |
+"| My Nokia 3310 just refuses to die, it's a true survivor.",Product,Positive |
+"| The volume button on the Blackberry is so flimsy, it broke after a week.",Part,Negative |
+| The Motorola phone has the fastest charging speed I've ever seen! ⚡,Part,Positive |
+"| The Xiaomi Redmi Note 9 Pro has a great display, but the battery drains too quickly.","Product, Part",Negative |
+| The Oppo Find X3 Pro is a bit overpriced for what it offers.,Product,Negative |
+"| The OnePlus 9 camera is good, but not as impressive as the competitors in the same price range.",Part,Neutral |
+"| I miss the simplicity of my old Sony Ericsson phone, it was so easy to use.",Product,Positive |
+"| The Google Pixel phone has an excellent camera, perfect for photography enthusiasts.",Part,Positive |
+| Just upgraded to the latest iPhone 12 Pro Max and the camera quality is amazing! 😍📸                                                       ,"Product, Part ",Positive|
+| The battery life of my old Samsung Galaxy S8 is abysmal.                                                                                   ,Part          ,Negative|
+"| Absolutely love the new Google Pixel 5, the design is sleek and the performance is top-notch.                                               ",Product       ,Positive|
+| The screen of my OnePlus 7 Pro cracked after a minor drop.                                                                                 ,Part          ,Negative|
+"| I can't believe how fast the fingerprint sensor on the Xiaomi Redmi Note 9 Pro is, it's incredibly responsive.                             ",Part          ,Positive|
+"| The microphone on my LG G8 ThinQ has been acting up lately, making calls sound distorted.                                                   ",Part          ,Negative|
+"| Finally got my hands on the new Oppo Find X3 Pro, and the display quality is breathtaking.                                                   ","Product, Part ",Positive|
+"| The speaker on my old HTC One M9 has started to produce crackling sounds, it's definitely showing its age.                                  ",Part          ,Negative|
+"| The Asus ROG Phone 5 is a gaming powerhouse, the performance is unmatched and the battery life is exceptional.                              ",Product       ,Positive|
+"| My Huawei Mate 20 Pro is still going strong after 2 years, the camera capabilities are still impressive.                                   ","Product, Part ",Positive|
+"| The charging port on my Motorola Edge+ is loose, making it difficult to charge the phone.                                                   ",Part          ,Negative|
+"| Can't get enough of the new Sony Xperia 1 III, the 4K display is a game-changer and the camera performance is outstanding.                  ","Product, Part ",Positive|
+| The fingerprint scanner on my old BlackBerry Key2 is unreliable and often fails to recognize my fingerprint.                               ,Part          ,Negative|
+"| Loving the sleek design of the new Vivo X60 Pro, it's a head-turner and the performance is smooth as butter.                                 ",Product       ,Positive|
+"| The front-facing camera on my Samsung Galaxy A51 has a blurry lens, making selfies look unflattering.                                       ",Part          ,Negative|
+"| The Realme X50 Pro 5G is a budget-friendly powerhouse, the performance rivals that of premium flagship phones.                             ",Product       ,Positive|
+"| The battery life on my old Nokia 6.1 Plus is surprisingly good, it can last me a full day with moderate use.                                 ",Part          ,Positive|
+"| The 120Hz display on the OnePlus 8 Pro is a game-changer, scrolling feels incredibly smooth and responsive.                                  ",Part          ,Positive|
+"| The speaker on the Alcatel 3V is tinny and lacks bass, it's definitely not suited for music enthusiasts.                                     ",Part          ,Negative|
+"| I am thoroughly impressed with the camera capabilities of the Xiaomi Mi 11 Ultra, the photos it takes are truly stunning.                    ","Product, Part ",Positive|
+| Bought a Samsung Galaxy Note 20 and loving the display.,Product     ,Positive|
+| The battery life of my iPhone XS Max is disappointing.,Part        ,Negative|
+| The camera on my OnePlus 9 Pro is simply amazing.    ,Part        ,Positive|
+"| My old Nokia 3310 is a classic, still works perfectly.",Product     ,Positive|
+| The speaker on my LG G8 ThinQ cracked after a month. ,Part        ,Negative|
+| Finally got the chance to try out the new Xiaomi Mi 11.,Product    ,Positive|
+| The screen on my Sony Xperia 1 II is too dim for my liking.,Part   ,Negative|
+| Dealing with the lag on my Motorola Edge 20 is frustrating.,Part    ,Negative|
+| Can't get enough of the performance on my ASUS ROG Phone 5.,Part    ,Positive|
+"| Loving the new Oppo Find X3 Pro, such a sleek design. ",Product    ,Positive|
+| The charging port on my HTC U12+ keeps disconnecting. ,Part        ,Negative|
+| The battery of my Samsung Galaxy S10 drains too quickly.,Part       ,Negative|
+| Excited to try out the camera on the upcoming Huawei P50.,Product   ,Positive|
+| The speaker quality on my Pixel 4a is impressive.      ,Part        ,Positive|
+"| Pre-ordered the new OnePlus 9T, hoping for a great experience.",Product,Positive|
+| The software on my LG V60 ThinQ is full of bugs.        ,Part       ,Negative|
+| Just got my hands on the new Samsung Galaxy S21 Ultra! 📱🔥                                                      ,Product        ,Positive|
+| This phone IS AWEEESOME FOR THE PRICE. I got the peacock blue p30 lite for £180.                                  ,Product        ,Positive|
+| The phone has great battery life.                                                                                ,Part           ,Positive|
+| The fingerprint scanner is instant! Like no lag when using it.                                                   ,Part           ,Positive|
+"| The face rec is decent too, I prefer the fingerprint but I use both and they both good.                         ",Part           ,Positive|
+| The phone looks sexy as hell too.                                                                                ,Part           ,Positive|
+"| But it's a fingerprint magnet, so buy a clear case in addition since UK models don't get cases.                  ",Part           ,Positive|
+| And oo charges really fast too.                                                                                  ,Part           ,Positive|
+| Mic of that phone ! &……* @@@@ easily goes faulty.                                                                ,Part           ,Negative|
+"| Love the design, but the SPEAKER is terrible...😂😂🙈🙈                                                            ",Part           ,Negative|
+| Bought a Huawei p30 pro and found the camera terrific.                                                          ,"Product, Part  ",Positive|
+| My friend plans to fix his old Huawei p20 phone.                                                                 ,Product        ,Neutral |
+| Mic of that phone easily goes faulty.                                                                            ,Part           ,Negative|
+| Bought a Samsung galaxy S10 and the camera quality is outstanding! 📸                                                                             ,"Product, Part ",Positive|
+| I'm having issues with the battery life of my iPhone X. It drains too quickly.                                                                     ,Part         ,Negative|
+| Just upgraded to the latest iPhone 12 Pro Max and the performance is blazing fast.                                                                 ,"Product, Part ",Positive|
+| The screen of my old Nokia 3310 cracked after a small drop.                                                                                       ,Part         ,Negative|
+| Loving the new Google Pixel 5! The camera features are amazing.                                                                                   ,"Product, Part ",Positive|
+| The speaker of my Motorola Moto G7 Plus stopped working suddenly.                                                                                 ,Part         ,Negative|
+| Just got my hands on the Xiaomi Mi 11 and I'm impressed with the display quality.                                                                   ,"Product, Part ",Positive|
+"| The charging port of my OnePlus 8 Pro seems to be loose, causing connectivity issues.                                                               ",Part         ,Negative|
+| The OnePlus Nord is a great budget-friendly option. The performance is smooth and the camera takes good pictures.                                   ,"Product, Part ",Positive|
+| The volume buttons of my Sony Xperia XZ3 are not working properly.                                                                                 ,Part         ,Negative|
+| Excited to test out the new iPhone SE 2020. I've heard the battery life is exceptional.                                                             ,"Product, Part ",Positive|
+| The fingerprint sensor on my Samsung Galaxy A50 stopped recognizing my fingerprint.                                                                 ,Part         ,Negative|
+| The Huawei Mate 30 Pro has an impressive battery life and the camera quality is top-notch.                                                          ,"Product, Part ",Positive|
+| My LG G8 ThinQ has been experiencing screen flickering issues recently.                                                                            ,Part         ,Negative|
+| The Oppo Find X3 Pro has a stunning design and the performance is exceptional.                                                                     ,"Product, Part ",Positive|
+| I accidentally dropped my Asus ZenFone 6 and now the screen is cracked.                                                                            ,Part         ,Negative|
+| The camera of the iPhone 11 Pro Max captures incredible photos in low light conditions.                                                            ,"Product, Part ",Positive|
+| The charging cable of my Xiaomi Redmi Note 9 keeps disconnecting intermittently.                                                                   ,Part         ,Negative|
+| The Google Pixel 4a is a solid choice for a mid-range smartphone. The camera produces sharp images and the software is smooth.                 ,"Product, Part ",Positive|
+"| My old Blackberry Key2 has been freezing frequently, making it difficult to use.                                                                   ",Part         ,Negative|
+| Just bought the new iPhone 12 and it's amazing! 😍📱                                   ,Product            ,Positive|
+| The battery life of my Samsung Galaxy S10 has been disappointing.                      ,Part               ,Negative|
+| The camera quality of my Google Pixel 4a is outstanding.                               ,Part               ,Positive|
+| Planning to upgrade to the latest OnePlus 9 Pro soon.                                 ,Product            ,Neutral |
+| My old Nokia 3310 is still working perfectly after all these years.                    ,Product            ,Positive|
+| The screen on my Motorola Razr is prone to scratching easily.                          ,Part               ,Negative|
+| Can't wait to get my hands on the new Xiaomi Redmi Note 10. 📱                        ,Product            ,Positive|
+| The speaker on my LG G8 ThinQ stopped working suddenly.                                ,Part               ,Negative|
+| The performance of my Blackberry Key2 is subpar compared to newer models.              ,Product            ,Negative|
+"| My Huawei Mate 20 Pro is starting to lag, time for an upgrade.                        ",Product            ,Negative|
+| The battery of my Oppo Find X2 Pro lasts all day without needing a recharge.           ,Part               ,Positive|
+| I accidentally dropped my Sony Xperia 1 and the screen cracked. 😭📱                   ,"Product, Part      ",Negative|
+| The 5G capabilities of the new iPhone 12 Pro are impressive.                          ,Part               ,Positive|
+| The camera on the Samsung Galaxy Note 20 Ultra takes amazing photos.                  ,Part               ,Positive|
+| Can't believe how fast the fingerprint scanner on my Xiaomi Mi 10 Pro is.              ,Part               ,Positive|
+| The design of my Google Pixel 5 is sleek and modern.                                  ,Part               ,Positive|
+| The software updates on my OnePlus Nord are frequent and reliable.                     ,Part               ,Positive|
+"| My old ZTE Axon 7 still performs well, despite its age.                                ",Product            ,Positive|
+| The speaker volume on my HTC U12+ is too low for my liking.                            ,Part               ,Negative|
+| My Vivo V20 Pro has a stunning display with vibrant colors.                           ,Part               ,Positive|
+| Just got my hands on the new Samsung Galaxy S21 Ultra! 📱🔥    ,Product         ,Positive|
+| This phone IS AWEEESOME FOR THE PRICE.                        ,Product         ,Positive|
+| Mic of that phone  !  &……* @@@@ easily goes faulty.           ,Part            ,Negative|
+| My friend plans to fix his old Huawei p20 phone.              ,Product         ,Neutral |
+"| Love the design, but the SPEAKER is terrible...😂😂🙈🙈          ",Part            ,Negative|
+| Phone speed - amazing. Phone features - amazing.               ,"Product, Part   ",Positive|
+| Bought a Huawei p30 pro and found the camera terrific.        ,"Product, Part   ",Positive|
+| I got the peacock blue p30 lite for £180.                     ,Product         ,Positive|
+| The fingerprint scanner is instant!                           ,Part            ,Positive|
+"| The face rec is decent too, I prefer the fingerprint.         ",Part            ,Positive|
+| The phone looks sexy as hell too.                             ,Part            ,Positive|
+"| But its a fingerprint magnet, so buy a clear case in addition.",Part            ,Positive|
+| And oo charges really fast too.                               ,Part            ,Positive|
+| Battery life and how quickly it charges - amazing.            ,Part            ,Positive|
+| I will try to hold out with Huawei for as long as possible.   ,Product         ,Positive|
+"| Literally, what more can I say? I have had this phone for 6 months and it is still going strong. I am so happy with my purchase :)","Product, Part",Positive|
+| Phone design and colour - amazing.                            ,Part            ,Positive|
+| Memory on phone - amazing.                                    ,Part            ,Positive|
+| Even if it means to continuously buy pre-May 2019 phones.     ,Product         ,Positive|
+| The phone has great battery life.                             ,Part            ,Positive|
+| Just bought the latest iPhone 12 Pro Max and the camera quality is outstanding! 📸                                               ,"Product, Part",Positive|
+| The screen of my Samsung Galaxy S10 cracked after a small fall. 😔                                                                 ,Part       ,Negative|
+| Trying to repair the broken battery of my old Nokia 3310.                                                                          ,Part       ,Neutral |
+| 🚀 Loving the speed and performance of my new Google Pixel 5.                                                                      ,Product    ,Positive|
+| The speaker on my LG G8 ThinQ stopped working suddenly. 😞                                                                         ,Part       ,Negative|
+| This new OnePlus 8 Pro is a beast! The display and battery life are amazing. 🙌                                                   ,"Product, Part",Positive|
+| I can't believe how fast the charging is on the Xiaomi Mi 10 Pro! 🔋                                                               ,"Product, Part",Positive|
+| The battery drains so quickly on my old iPhone 6s.                  ,Part       ,Negative|
+| The design of the Sony Xperia 1 II is sleek and elegant.                                                                         ,Part       ,Positive|
+| Huawei Mate 30 Pro's camera performance is top-notch.                                                                            ,"Product, Part",Positive|
+| The headphone jack on my Motorola Moto G Power is not working properly.                                                           ,Part       ,Negative|
+"| This new Blackberry Key2 has a physical keyboard, which is a great feature for typing.                                            ","Product, Part",Positive|
+| The battery life on the Asus ROG Phone 3 lasts me all day long with heavy usage.                                                   ,Part       ,Positive|
+| 📱🔥 My new Xiaomi Redmi Note 9 Pro Max is blazing fast and has an excellent display.                                              ,"Product, Part",Positive|
+| The speaker quality on my old HTC One M9 is below average.                                                                       ,Part       ,Negative|
+| The software updates on my Google Pixel 4 XL are always on time.                                                                 ,Part       ,Positive|
+| The fingerprint scanner on the Oppo Find X2 Pro is very accurate and fast.                                                       ,Part       ,Positive|
+| The camera on the Samsung Galaxy Note 20 Ultra takes stunning photos.                                                            ,Part       ,Positive|
+| The microphone on the Sony Xperia 5 II is not working properly.                                                                   ,Part       ,Negative|
+| The design and build quality of the OnePlus Nord are top-notch.                                                                   ,Part       ,Positive|
+| Got the latest iPhone 12 Pro Max and it's amazing! 📱🔥,Product,Positive |
+| The battery life of this phone is terrible...,Part,Negative |
+| My old Nokia 3310 still works like a charm.,Product,Neutral |
+| The screen on my Samsung Galaxy S10+ cracked after a small fall.,Part,Negative |
+| Loving the camera quality of my Google Pixel 4.,Part,Positive |
+"| Just ordered the new OnePlus 9 Pro, can't wait to try it out!",Product,Neutral |
+| The volume button on my iPhone XS is not working properly.,Part,Negative |
+| The speakerphone on this Huawei Mate 30 Pro is crystal clear.,Part,Positive |
+| My old Motorola Razr has a nostalgic charm to it.,Product,Neutral |
+| The touch screen on my Xiaomi Mi 10 Lite is very responsive.,Part,Positive |
+| Just got the latest Oppo Find X3 Neo and I'm impressed!,Product,Positive |
+| The microphone quality of my LG V60 ThinQ is disappointing.,Part,Negative |
+| The color options for the new iPhone 13 are stunning.,Part,Positive |
+| My BlackBerry Key2 still has the best physical keyboard.,"Product, Part",Neutral |
+| The camera lenses on my Sony Xperia 1 III are top-notch.,Part,Positive |
+| Just upgraded to the Samsung Galaxy Note20 Ultra and it's a beast!,Product,Positive |
+| The fingerprint sensor on my HTC U12+ stopped working suddenly.,Part,Negative |
+| The design of the Google Pixel 5 is sleek and modern.,"Product, Part",Positive |
+| The battery capacity of my Lenovo Legion Phone Duel 2 is impressive.,Part,Positive |
+| My Asus ROG Phone 5 has the best gaming performance.,"Product, Part",Positive |
+| The screen on my iPhone XR cracked. 📱😭                                                                        ,Part          ,Negative|
+| Finally upgraded to the new Google Pixel 5. Love the camera quality.                                           ,"Product, Part ",Positive|
+| The battery life of my old Samsung Galaxy S8 is terrible.                                                      ,Part          ,Negative|
+| Just received my new OnePlus 9 Pro and I'm impressed with the performance.                                     ,Product       ,Positive|
+| The speaker on my Motorola G6 is not working properly.                                                         ,Part          ,Negative|
+| Can't wait to get my hands on the latest iPhone 12. 📱🔥                                                       ,Product       ,Positive|
+| My friend got the new Xiaomi Mi 11 and can't stop raving about it.                                             ,Product       ,Positive|
+| The camera quality of the Sony Xperia 1 II is outstanding.                                                     ,Part          ,Positive|
+| The charging port on my LG G7 ThinQ is malfunctioning.                                                         ,Part          ,Negative|
+| Loving the new design of the Oppo Find X3 Pro.                                                                 ,Product       ,Positive|
+| The volume button on my old Nokia 6 is stuck.                                                                  ,Part          ,Negative|
+| Pre-ordered the upcoming Huawei Mate 40 Pro. Can't wait to try out the new features.                           ,Product       ,Positive|
+| The fingerprint sensor on the Blackberry Key2 is very responsive.                                              ,Part          ,Positive|
+| My experience with the ZTE Axon 10 Pro has been disappointing due to frequent software crashes.                ,Product       ,Negative|
+| The front camera on the Vivo V20 Pro takes amazing selfies.                                                   ,Part          ,Positive|
+"| Got a used HTC U11, but the battery drains quickly.                                                            ","Product, Part ",Negative|
+| The display on my Asus ROG Phone 5 has a dead pixel.                                                           ,Part          ,Negative|
+| Excited to test out the new Realme GT 5G's performance.                                                        ,Product       ,Positive|
+| The power button on my Alcatel 1B keeps getting stuck.                                                        ,Part          ,Negative|
+| Just bought the Xiaomi Redmi Note 10 and I'm loving the value for money.                                       ,Product       ,Positive|
+| The screen of my iPhone X cracked easily.,Part,Negative |
+| Just pre-ordered the new Google Pixel 5! Can't wait to try out the camera.,Product,Positive |
+| My Samsung Galaxy Note 10 has been acting up lately.,Product,Negative |
+| The battery life on the OnePlus 8 Pro is impressive.,Part,Positive |
+"| Loving the new Oppo Find X3 Pro, especially the display quality.","Product, Part",Positive |
+| The speaker on my old LG G7 ThinQ stopped working.,Part,Negative |
+"| Got a great deal on the Xiaomi Redmi Note 9, it's a solid budget phone.",Product,Positive |
+| Why does the microphone on the Motorola Moto G Power keep cutting out?,Part,Negative |
+| The camera features on the Sony Xperia 1 III are top-notch.,Part,Positive |
+| Found a scratch on the back of my Google Pixel 4a.,Part,Negative |
+| The software updates on the Nokia 8.3 have been causing issues.,Part,Negative |
+| The OnePlus Nord N10 5G is a good mid-range phone for the price.,Product,Neutral |
+| Can't get over how fast the charging speed is on the iPhone 12 Pro Max.,Part,Positive |
+| The fingerprint sensor on the Vivo X60 Pro+ is not very accurate.,Part,Negative |
+| Excited to test out the 5G capabilities of the Huawei Mate 40 Pro.,Product,Neutral |
+| The speaker quality on the Asus ROG Phone 5 is disappointing.,Part,Negative |
+| Looking to upgrade to the Samsung Galaxy S21+ for better performance.,Product,Neutral |
+| The camera lens on the Xiaomi Mi 11 Ultra is prone to scratching easily.,Part,Negative |
+| My experience with the HTC Desire 20 Pro has been mediocre at best.,Product,Neutral |
+| The Realme X7 Pro 5G offers excellent value for money.,Product,Positive |
+"| Bought a Samsung Galaxy S20 FE and I must say, the display is stunning.                                                   ","Product, Part ",Positive |
+| The battery life of my iPhone X is simply amazing.                                                                      ,"Product, Part ",Positive |
+| Planning to upgrade to the latest iPhone 12 Pro Max.                                                                    ,Product       ,Neutral  |
+| The camera quality of my Google Pixel 5 is top-notch.                                                                    ,"Product, Part ",Positive |
+| Just bought a OnePlus 8T and the charging speed is unbelievable!                                                         ,"Product, Part ",Positive |
+| My old Nokia 3310 still works perfectly after all these years.                                                          ,Product       ,Positive |
+| The speaker on my LG V60 ThinQ is disappointingly quiet.                                                                ,Part          ,Negative |
+| Trying to fix the broken screen on my Sony Xperia 1 II.                                                                 ,"Product, Part ",Neutral  |
+| The new Xiaomi Redmi Note 9 Pro has an impressive camera.                                                               ,"Product, Part ",Positive |
+| The performance of the BlackBerry Key2 is lacking compared to modern smartphones.                                        ,Product       ,Negative |
+| My Huawei Mate 20 Pro has a faulty charging port.                                                                       ,"Product, Part ",Negative |
+| Excited to get the new Motorola Razr 5G with its unique folding design.                                                  ,"Product, Part ",Positive |
+| The volume buttons on my Oppo Find X2 Pro are too sensitive.                                                            ,Part          ,Negative |
+| Samsung Galaxy Note 10's battery drains quickly even with minimal usage.                                                 ,"Product, Part ",Negative |
+| The software update on my iPhone SE caused it to lag constantly.                                                        ,"Product, Part ",Negative |
+| The camera lens cover on my Sony Xperia XZ3 keeps getting scratched easily.                                              ,Part          ,Negative |
+"| I love the design of the Google Pixel 4a, but the battery life is disappointing.                                          ","Product, Part ",Negative |
+| The Vivo X50 Pro's display is vibrant and sharp.                                                                        ,"Product, Part ",Positive |
+"| My OnePlus Nord has been acting strange lately, might need to get it checked.                                            ",Product       ,Neutral  |
+| The ZTE Axon 11's speaker quality is subpar compared to other smartphones in the market.                                 ,"Product, Part ",Negative |
+| Just bought the latest iPhone 13 Pro Max and the camera quality is beyond my expectations! ,"Product, Part",Positive|
+"| This Samsung Galaxy Fold 3 has a gorgeous display, but the battery life is disappointing.    ","Product, Part",Negative|
+| The speaker on my new Google Pixel 6 is surprisingly loud and clear.                       ,Part         ,Positive|
+| My old Nokia 3310 is a classic and still works like a charm.                                ,Product      ,Neutral |
+| The screen on my Xiaomi Redmi Note 10 cracked after a small fall.                           ,Part         ,Negative|
+| Looking to upgrade to the new OnePlus 9 Pro for its stunning design.                        ,Product      ,Neutral |
+"| The battery life of my Motorola Edge 5G is phenomenal, lasting me the entire day.           ",Part         ,Positive|
+| I can't get enough of the stylish design of my Sony Xperia 1 III.                          ,Part         ,Positive|
+| The camera quality of the Oppo Find X3 Pro is unmatched in the market.                     ,"Product, Part",Positive|
+| My Blackberry Key2 keyboard is starting to feel a bit sticky.                               ,Part         ,Negative|
+| The sound quality of the HTC Desire 21 Pro 5G is subpar compared to other phones.           ,Part         ,Negative|
+"| I love the unique design of the LG Velvet 5G, but the software is buggy.                    ",Product      ,Negative|
+| The fingerprint scanner on my Realme GT Master Edition is lightning fast.                   ,Part         ,Positive|
+| Planning to sell my Asus ROG Phone 5 for an upgrade to a newer model.                       ,Product      ,Neutral |
+| The Motorola Razr has a nostalgic appeal but falls short in terms of performance.           ,Product      ,Negative|
+"| My old iPhone 7 has seen better days, the battery drains quickly now.                       ",Part         ,Negative|
+| The gaming experience on my Xiaomi Black Shark 4 is unmatched in speed and graphics.        ,"Product, Part",Positive|
+| The physical buttons on my Razer Phone 2 are starting to feel mushy.                        ,Part         ,Negative|
+"| The build quality of the CAT S62 Pro rugged phone is impressive, it can withstand harsh conditions.","Product, Part",Positive|
+"| The ZTE Axon 30 Ultra has a sleek design, but the camera tends to overexpose in bright light.","Product, Part",Negative|
+| Bought a Samsung Galaxy S10 and the screen resolution is amazing!                                            ,Product          ,Positive |
+| The battery life on my iPhone XR is disappointing.                                                           ,Part             ,Negative |
+| Just upgraded to the latest iPhone 12 Pro Max and the camera quality is outstanding.                         ,"Product, Part    ",Positive |
+| The headphone jack on my old Google Pixel 3 XL stopped working.                                              ,Part             ,Negative |
+"| Can't believe how fast the OnePlus 8 Pro charges, it's a game-changer.                                        ",Part             ,Positive |
+| My sister is considering buying a Motorola Edge+ for its impressive display.                                  ,Product          ,Neutral  |
+| The speaker volume on my old LG G7 ThinQ started to decrease over time.                                       ,Part             ,Negative |
+| Got a new Xiaomi Mi 10T Pro and the performance is top-notch.                                                ,"Product, Part    ",Positive |
+| The software update on my HTC U12+ caused the phone to lag constantly.                                       ,Part             ,Negative |
+"| Loving the sleek design of the Oppo Find X3 Pro, definitely worth the investment.                             ",Product          ,Positive |
+| The charging port on my Sony Xperia 1 II became loose and unreliable.                                         ,Part             ,Negative |
+| Picked up a new Nokia 8.3 5G and the 5G connectivity is incredibly fast.                                      ,"Product, Part    ",Positive |
+| The touch screen on my old Blackberry Key2 kept registering phantom touches.                                   ,Part             ,Negative |
+| Excited to try out the new Google Pixel 5 for its advanced camera features.                                   ,Product          ,Positive |
+"| The battery drain on my Asus ROG Phone 3 is abnormally high, not happy with it.                                ",Part             ,Negative |
+| Switched to a new Xiaomi Redmi Note 10 Pro and the display quality is exceptional.                            ,"Product, Part    ",Positive |
+| The microphone quality on my old Motorola Moto G Power deteriorated quickly.                                  ,Part             ,Negative |
+"| Decided to stick with my old iPhone 7 for its reliability, even though it's starting to show its age.         ","Product, Neutral",Neutral  |
+"| The fingerprint sensor on my OnePlus Nord N10 5G is not very accurate, quite disappointing.                   ",Part             ,Negative |
+| Opted for the Samsung Galaxy A52 5G and the battery life is surprisingly long-lasting.                        ,"Product, Part    ",Positive |
+"| The screen of my iPhone XS Max cracked, need to get it fixed.",Part,Negative |
+"| Just upgraded to the latest Google Pixel 5, loving the camera quality.","Product, Part",Positive |
+| The battery life on my old Samsung Galaxy S8 is still holding up surprisingly well.,"Product, Part",Positive |
+| The volume buttons on my Huawei Mate 20 Pro are not working properly.,Part,Negative |
+"| Can't believe how fast the OnePlus 9 Pro charges, truly impressive.","Product, Part",Positive |
+| The speaker quality on my LG G7 ThinQ is below average.,Part,Negative |
+"| Just pre-ordered the new iPhone 13, can't wait to get my hands on it!",Product,Positive |
+"| The camera lens on my Xiaomi Mi 11 Ultra is scratch-resistant, very durable.",Part,Positive |
+"| My Motorola Edge 20 overheats quickly, not ideal for gaming.","Product, Part",Negative |
+"| The design of the Oppo Find X3 Pro is sleek and modern, a real eye-catcher.","Product, Part",Positive |
+"| Finally fixed the charging port on my Sony Xperia 1 II, works like new now.",Part,Positive |
+"| The front camera of my Vivo V21 5G takes amazing selfies, very impressed.",Part,Positive |
+| The software on my Blackberry KEY2 is outdated and sluggish.,"Product, Part",Negative |
+"| My ZTE Axon 30 Ultra has a cracked back panel, need to replace it.",Part,Negative |
+"| The display on my Realme GT 5G is vibrant and sharp, great for watching videos.",Part,Positive |
+| The fingerprint sensor on my Redmi Note 10 Pro is unreliable and often fails to recognize my fingerprint.,Part,Negative |
+"| The build quality of my Nokia 8.3 5G is solid and durable, feels premium in hand.",Part,Positive |
+"| The performance of my Asus ROG Phone 5 is outstanding, handles gaming with ease.","Product, Part",Positive |
+"| The touch screen on my Lenovo Legion Phone Duel 2 is not responsive at times, frustrating to use.",Part,Negative |
+"| My CAT S62 Pro is rugged and built to last, perfect for outdoor activities.","Product, Part",Positive |
+"| Love the design, but the SPEAKER is terrible...😂😂🙈🙈                                                                             ",Part          ,Negative |
+"| Phone speed - amazing. Phone features - amazing. Phone design and colour - amazing. Memory on phone - amazing. Battery life and how quickly it charges - amazing. Fingerprint scanner - amazing. In fact amazing is just an understatement. I have always loved Huawei phones since getting my first one back in Spring 2017. I will try to hold out with Huawei for as long as possible (even if it means to continuously buy pre-May 2019 phones). Literally, what more can I say? I have had this phone for 6 months and it is still going strong. I am so happy with my purchase :)","Product, Part ",Positive |
+| Mic of that phone  !  &……* @@@@ easily goes faulty.                                                                                ,Part          ,Negative |
+| Just got my hands on the new Samsung Galaxy S21 Ultra! 📱🔥                                                                         ,Product       ,Positive |
+"| This phone IS AWEEESOME FOR THE PRICE. I got the peacock blue p30 lite for £180. The phone has great battery life. I can play games and it will genuinely last for a long time (ofc will vary from people and typea of games and apps they use). The fingerprint scanner is instant! Like no lag when using it. The face rec is decent too, I prefer the fingerprint but I use both and they both good. The phone looks sexy as hell too. But its a fingerprint magnet, so buy a clear case in addition since UK models dont get cases. And oo charges really fast too.","Product, Part ",Positive |
+| The battery of my old iPhone 6s is draining so fast these days.                                                                     ,Part          ,Negative |
+"| Considering getting the new iPhone 13 Pro, but I'm not sure if it's worth the upgrade.                                               ",Product       ,Neutral  |
+| The screen on my Samsung Note 10+ cracked after a minor drop.                                                                       ,Part          ,Negative |
+| My experience with the Google Pixel 4 has been nothing but positive.                                                                ,Product       ,Positive |
+| The camera quality of the OnePlus 9 Pro is truly impressive.                                                                        ,Part          ,Positive |
+| @Phone company just released their latest model with enhanced features.                                                             ,Product       ,Neutral  |
+| Can't believe how fast the charging speed is on the Oppo Find X3 Pro.                                                               ,Part          ,Positive |
+| I'm thinking of selling my old LG G8 ThinQ and upgrading to the LG Velvet 5G.                                                       ,Product       ,Neutral  |
+| The speaker on my Sony Xperia 1 II started crackling after a few months of use.                                                     ,Part          ,Negative |
+| 📱 Excited to try out the new Xiaomi Mi 11 with its advanced camera capabilities.                                                    ,"Product, Part  ",Positive |
+"| The battery life on my Motorola Edge 5G is impressive, lasting me a full day with heavy usage.                                        ",Part          ,Positive |
+| # New release from Samsung with a sleek design and improved performance.                                                            ,Product       ,Positive |
+| The display on my old HTC U12+ is starting to flicker randomly.                                                                     ,Part          ,Negative |
+| Looking forward to the upcoming launch of the Blackberry Key3 with its signature physical keyboard.                                  ,Product       ,Neutral  |
+| The front camera of my Vivo V20 Pro takes stunning selfies in low light conditions.                                                  ,Part          ,Positive |
+| Bought a Samsung Galaxy S10 and absolutely love the display.                                                          ,"Product, Part  ",Positive|
+| The battery life on my iPhone X is getting worse every day.                                                           ,"Product, Part  ",Negative|
+| My new Google Pixel 4 XL came with a faulty charging cable.                                                           ,"Product, Part  ",Negative|
+| 📱 Just upgraded to the latest iPhone 12 Pro Max and it's a game-changer!                                               ,Product        ,Positive|
+| The camera quality of my old OnePlus 6T still impresses me.                                                            ,"Product, Part  ",Positive|
+| The screen of my Motorola Razr 5G cracked after a minor drop.                                                          ,"Product, Part  ",Negative|
+"| My Huawei Mate 20 Pro has been freezing randomly, frustrating experience.                                             ",Product        ,Negative|
+| The speaker volume on my LG G8 ThinQ is impressively loud.                                                             ,Part           ,Positive|
+| My Sony Xperia 1 II has exceptional audio quality.                                                                    ,"Product, Part  ",Positive|
+| 📱🔥 Just got the new Xiaomi Mi 10 and the speed is mind-blowing!                                                       ,Product        ,Positive|
+| The battery capacity of my old Nokia 7 Plus is not what it used to be.                                                 ,"Product, Part  ",Negative|
+| The fingerprint sensor on my Blackberry Key2 is unreliable.                                                            ,Part           ,Negative|
+| Upgraded to the latest Google Pixel 5 and the camera is simply amazing.                                                ,"Product, Part  ",Positive|
+"| My ZTE Axon 10 Pro overheats during heavy usage, not ideal.                                                            ","Product, Part  ",Negative|
+| The sound quality from the earpiece on my Xiaomi Redmi Note 9 Pro is subpar.                                            ,Part           ,Negative|
+"| 📱 The new Oppo Find X3 Pro is a beauty to look at, stunning design.                                                    ",Product        ,Positive|
+| The storage space on my Samsung Galaxy A51 is insufficient for my needs.                                               ,"Product, Part  ",Negative|
+| The performance of my Asus ROG Phone 3 is unmatched in gaming.                                                         ,"Product, Part  ",Positive|
+| My old HTC U12+ has a cracked screen and the repair cost is too high.                                                  ,"Product, Part  ",Negative|
+"| 📱🔥 Excited to try out the new Apple iPhone SE 2020, heard great things about it.                                      ",Product        ,Positive|
+"| Love the design, but the SPEAKER is terrible...😂😂🙈🙈                                                                          ",Part              ,Negative|
+"| Phone speed - amazing. Phone features - amazing. Phone design and colour - amazing. Memory on phone - amazing. Battery life and how quickly it charges - amazing. Fingerprint scanner - amazing. In fact amazing is just an understatement. I have always loved Huawei phones since getting my first one back in Spring 2017. I will try to hold out with Huawei for as long as possible (even if it means to continuously buy pre-May 2019 phones). Literally, what more can I say? I have had this phone for 6 months and it is still going strong. I am so happy with my purchase :)","Product, Part     ",Positive|
+| Mic of that phone  !  &……* @@@@ easily goes faulty.                                                                           ,Part              ,Negative|
+| Just got my hands on the new Samsung Galaxy S21 Ultra! 📱🔥                                                                    ,Product           ,Positive|
+"| This phone IS AWEEESOME FOR THE PRICE. I got the peacock blue p30 lite for £180. The phone has great battery life. I can play games and it will genuinely last for a long time (ofc will vary from people and types of games and apps they use). The fingerprint scanner is instant! Like no lag when using it. The face rec is decent too, I prefer the fingerprint but I use both and they both good. The phone looks sexy as hell too. But its a fingerprint magnet, so buy a clear case in addition since UK models don't get cases. And oo charges really fast too.","Product, Part     ",Positive|
+| 📱🔥🙌 Finally upgraded to the iPhone 13 Pro Max and I'm loving it!                                                              ,Product           ,Positive|
+| The battery life of my Samsung Galaxy Note 10+ is incredible.                                                                  ,Product           ,Positive|
+| The camera quality of my old iPhone 7 is still impressive.                                                                     ,Product           ,Positive|
+| The screen of my Google Pixel 5 cracked easily.                                                                                ,Part              ,Negative|
+| My friend just got the latest Xiaomi Redmi Note 11 and says it's a great value for money.                                        ,Product           ,Positive|
+| I dropped my OnePlus 9 Pro and the screen shattered.                                                                           ,Part              ,Negative|
+| The Huawei Mate 40 Pro has excellent camera features.                                                                          ,Product           ,Positive|
+| I can't believe how fast the charging speed is on the Oppo Find X3 Pro.                                                         ,Part              ,Positive|
+| The speaker quality on the Sony Xperia 5 II is disappointing.                                                                  ,Part              ,Negative|
+| My experience with the battery life of the Motorola Moto G Power has been inconsistent.                                          ,Part              ,Neutral  |
+| The camera on the Google Pixel 6 Pro is outstanding.                                                                           ,Product           ,Positive|
+| The fingerprint scanner on the Samsung Galaxy S20 FE is not very reliable.                                                      ,Part              ,Negative|
+| The Oppo Reno 6 Pro 5G offers amazing performance at a reasonable price.                                                        ,Product           ,Positive|
+| The design of the Realme GT Master Edition is unique and eye-catching.                                                         ,Part              ,Positive|
+"| My old iPhone X has been acting up lately, with frequent freezes and crashes.                                                   ",Product           ,Negative|
+| Just received my new Apple iPhone 12 Pro Max and the camera quality is top-notch! 📸🔥                                                  ,"Product, Part",Positive|
+| The screen of my Samsung Galaxy Note 10+ cracked after a small drop. 😢                                                                  ,Part         ,Negative|
+"| Got the new Google Pixel 5 for a great price, and it works like a charm.                                                                ",Product      ,Positive|
+| The battery life of my old Nokia 3310 is still unbeatable.                                                                             ,Part         ,Positive|
+| The speaker on my Sony Xperia XZ3 started crackling after a few months of use.                                                          ,Part         ,Negative|
+"| My OnePlus 8 Pro is lightning fast, best phone I've ever owned! ⚡                                                                     ",Product      ,Positive|
+| I can't stand the slow charging speed of the Motorola Edge+.                                                                            ,Part         ,Negative|
+| The front camera of my Xiaomi Mi 10 Pro captures stunning selfies. 🤳                                                                  ,Part         ,Positive|
+| I accidentally dropped my LG V60 ThinQ and now the screen is shattered. 😭                                                              ,Part         ,Negative|
+| The 5G capabilities of the Oppo Find X2 Pro are impressive.                                                                            ,Part         ,Positive|
+| The design of the HTC U12+ is unique and stylish.                                                                                     ,Part         ,Positive|
+| The overheating issue on my Sony Xperia 1 II is frustrating.                                                                          ,Part         ,Negative|
+| The 120Hz refresh rate on the ASUS ROG Phone 3 makes gaming a delight.                                                                ,Part         ,Positive|
+"| My Blackberry Key2's keyboard keys keep sticking, making typing a nightmare.                                                          ",Part         ,Negative|
+| The build quality of the Razer Phone 2 is solid and durable.                                                                          ,Part         ,Positive|
+| The software updates on my Essential Phone PH-1 are inconsistent and buggy.                                                            ,Part         ,Negative|
+| The Vivo X50 Pro's gimbal camera system provides stable and clear shots.                                                               ,Part         ,Positive|
+| The screen size of the Alcatel 1S is too small for watching videos comfortably.                                                       ,Part         ,Negative|
+| The audio quality on the Lenovo Legion Phone Duel is exceptional.                                                                     ,Part         ,Positive|
+| The Realme X2 Pro's super-fast charging feature is a game-changer.                                                                     ,Part         ,Positive|
+| The battery life of my old iPhone 6 is still impressive after all these years.,Part,Positive |
+| Can't believe how fragile the screen of my Samsung Galaxy Note 10 is.,Part,Negative |
+| Just upgraded to the latest iPhone 12 Pro Max and loving the improved camera quality.,"Product, Part",Positive |
+| The speaker on my Google Pixel 4a suddenly stopped working.,Part,Negative |
+| Planning to buy a new OnePlus Nord N10 5G for its amazing performance reviews.,Product,Positive |
+| The charging port of my Huawei Mate 20 Pro gets loose easily.,Part,Negative |
+"| Got a great deal on the new Xiaomi Redmi Note 9, can't wait to test its features.",Product,Neutral |
+| Samsung Galaxy S20 FE has been a disappointment with its overheating issues.,"Product, Part",Negative |
+| The fingerprint scanner on my LG V60 ThinQ works flawlessly every time.,Part,Positive |
+| Finally fixed the broken screen on my Motorola Moto G Power.,Part,Neutral |
+"| Loving the sleek design of my Sony Xperia 1 II, a true flagship device.",Product,Positive |
+| The camera quality on my old Nokia 7.2 still impresses me.,Part,Positive |
+| The software updates on my Asus ROG Phone 3 are always delayed.,Part,Negative |
+| Bought a second-hand iPhone SE 2020 and it's as good as new.,Product,Positive |
+| The battery life on my Blackberry Key2 LE is disappointing for a business phone.,Part,Negative |
+"| My Oppo Find X2 Pro is the best phone I've ever owned, worth every penny.",Product,Positive |
+| The screen display on my ZTE Axon 10 Pro is prone to ghost touches.,Part,Negative |
+| Can't wait to try out the new Google Pixel 5 for its advanced camera features.,Product,Neutral |
+"| The sound quality on my OnePlus 8T is exceptional, especially with Dolby Atmos.",Part,Positive |
+"| The design of my Xiaomi Mi 10T Pro is sleek and modern, a true flagship contender.",Product,Positive |
+| Just got my hands on the new iPhone 12 Pro Max! 📱🔥                                                                                       ,Product      ,Positive|
+| The screen of my Samsung Galaxy Note 20 cracked after a minor fall.                                                                      ,Part         ,Negative|
+| Love the sleek design of the Google Pixel 5.                                                                                           ,Product      ,Positive|
+| The battery life on my Xiaomi Redmi Note 9 is impressive.                                                                                ,Part         ,Positive|
+| Camera quality of the OnePlus 8T is top-notch.                                                                                           ,Part         ,Positive|
+| Can't stand the slow charging speed of the Oppo Find X2.                                                                                 ,Part         ,Negative|
+"| Finally upgraded to the LG Velvet 5G, and I'm loving the smooth performance.                                                             ",Product      ,Positive|
+| The speaker on the Sony Xperia 1 II stopped working suddenly.                                                                           ,Part         ,Negative|
+| My Huawei Mate 30 Pro's screen froze while watching a video.                                                                            ,Part         ,Negative|
+| The Google Pixel 4a's camera takes amazing photos in low light conditions.                                                               ,Part         ,Positive|
+| The battery capacity of the Motorola Moto G Power is outstanding.                                                                        ,Part         ,Positive|
+| Absolutely thrilled with the performance of my new OnePlus Nord N10 5G.                                                                  ,Product      ,Positive|
+| The fingerprint scanner on the Xiaomi Mi 10 Pro is not very responsive.                                                                  ,Part         ,Negative|
+| The speaker quality on the Samsung Galaxy S20 Ultra is unparalleled.                                                                     ,Part         ,Positive|
+| My old iPhone X has started overheating frequently.                                                                                      ,Part         ,Negative|
+| The sound quality on the Sony Xperia 5 II is disappointing.                                                                              ,Part         ,Negative|
+"| Received the Realme X50 Pro 5G as a gift, and it's been a game-changer.                                                                  ",Product      ,Positive|
+| The Asus ROG Phone 3's display is stunning for gaming.                                                                                  ,Part         ,Positive|
+| Disappointed with the battery life of my old Google Pixel 3a.                                                                            ,Part         ,Negative|
+| Can't get enough of the beautiful design of the Vivo X50 Pro+.                                                                          ,Product      ,Positive|
+| Bought a Samsung Galaxy S10 and the battery life is amazing!                                          ,Product     ,Positive|
+| My old Nokia phone's screen cracked easily.                                                          ,Part        ,Negative|
+| Just pre-ordered the new Google Pixel 6 and I can't wait for it to arrive!                            ,Product     ,Positive|
+| The speaker on my old LG phone started to distort after a few months of use.                           ,Part        ,Negative|
+| The mic on my Xiaomi Redmi Note 10 Pro stopped working suddenly.                                      ,Part        ,Negative|
+| My Sony Xperia's battery drains quickly even with minimal usage.                                      ,Part        ,Negative|
+| The earpiece on my old Huawei Mate 20 Pro stopped working.                                            ,Part        ,Negative|
+| The volume button on my old iPhone X is stuck and doesn't work properly.                              ,Part        ,Negative|
+| The speaker on my Sony Xperia 5 II produces crackling sounds at high volumes.                         ,Part        ,Negative|
+| The microphone on my old Blackberry phone was barely audible during calls.                             ,Part        ,Negative|
+| Just got my hands on the new Samsung Galaxy S21 Ultra! 📱🔥                                                      ,Product       ,Positive|
+"| Love the design, but the SPEAKER is terrible...😂😂🙈🙈                                                          ",Part          ,Negative|
+| Bought a #Huawei p30 pro and found the camera terrific.                                                        ,"Product, Part ",Positive|
+| This phone IS AWEEESOME FOR THE PRICE. I got the peacock blue p30 lite for £180.                                  ,Product       ,Positive|
+| My friend plans to fix his old Huawei p20 phone.                                                                ,Product       ,Neutral |
+| Phone speed - amazing. Phone features - amazing. Phone design and colour - amazing.                             ,"Product, Part ",Positive|
+| Memory on phone - amazing. Battery life and how quickly it charges - amazing.                                   ,Part          ,Positive|
+| Mic of that phone  !  &……* @@@@ easily goes faulty.                                                           ,Part          ,Negative|
+| The fingerprint scanner is instant! Like no lag when using it. The face rec is decent too.                       ,Part          ,Positive|
+| I have always loved Huawei phones since getting my first one back in Spring 2017.                               ,Product       ,Positive|
+"| Literally, what more can I say? I have had this phone for 6 months and it is still going strong.                ",Product       ,Positive|
+| I am so happy with my purchase :)                                                                               ,Product       ,Positive|
+| Just purchased the new Apple iPhone 12 and loving it! 🍏📱                                                       ,Product       ,Positive|
+| The battery life of the Samsung Galaxy Note 10 is not up to par.                                                ,"Product, Part ",Negative|
+| The screen resolution on the OnePlus 8 Pro is simply stunning.                                                  ,"Product, Part ",Positive|
+| The camera quality on the Google Pixel 4a is unmatched for its price range.                                     ,"Product, Part ",Positive|
+| The volume button on my old Motorola phone keeps getting stuck.                                                 ,Part          ,Negative|
+| The build quality of the Xiaomi Redmi Note 9 is exceptional.                                                    ,"Product, Part ",Positive|
+"| Despite the hype, the speaker on the Sony Xperia 1 II disappoints.                                               ","Product, Part ",Negative|
+| The screen protector for my Samsung Galaxy A51 does not fit properly.                                           ,Part          ,Negative|
+"| Love the design, but the SPEAKER is terrible...😂😂🙈🙈",Part,Negative |
+"| Phone speed - amazing. Phone features - amazing. Phone design and colour - amazing. Memory on phone - amazing. Battery life and how quickly it charges - amazing. Fingerprint scanner - amazing. In fact amazing is just an understatement. I have always loved Huawei phones since getting my first one back in Spring 2017. I will try to hold out with Huawei for as long as possible (even if it means to continuously buy pre-May 2019 phones). Literally, what more can I say? I have had this phone for 6 months and it is still going strong. I am so happy with my purchase :)","Product, Part",Positive |
+| Mic of that phone  !  &……* @@@@ easily goes faulty.,Part,Negative |
+| Just got my hands on the new Samsung Galaxy S21 Ultra! 📱🔥,Product,Positive |
+"| This phone IS AWEEESOME FOR THE PRICE. I got the peacock blue p30 lite for £180. The phone has great battery life. I can play games and it will genuinely last for a long time (ofc will vary from people and typea of games and apps they use). The fingerprint scanner is instant! Like no lag when using it. The face rec is decent too, I prefer the fingerprint but I use both and they both good. The phone looks sexy as hell too. But its a fingerprint magnet, so buy a clear case in addition since UK models dont get cases. And oo charges really fast too.","Product, Part",Positive |
+| The camera on my Huawei p20 PRO 😍 is phenomenal!,"Product, Part",Positive |
+| Why does the battery life of my Samsung Galaxy Note 10 keep decreasing?,"Product, Part",Negative |
+| The screen resolution of my iPhone XR is stunning!,"Product, Part",Positive |
+| The charging port of my Google Pixel 4 XL is faulty.,"Product, Part",Negative |
+| The memory capacity of my OnePlus 8T is impressive.,"Product, Part",Positive |
+| The speaker quality of my LG V60 ThinQ is top-notch.,Part,Positive |
+| The camera lens of my Xiaomi Mi 10 Pro is scratched.,"Product, Part",Negative |
+| The design of my Motorola Edge+ is sleek and modern.,"Product, Part",Positive |
+| I dropped my Oppo Reno 4 and now the screen is cracked.,"Product, Part",Negative |
+| The battery life of my Sony Xperia 1 II is exceptional.,"Product, Part",Positive |
+| The fingerprint scanner on my Nokia 9 PureView is unreliable.,Part,Negative |
+| The performance of my ASUS ROG Phone 3 is outstanding.,"Product, Part",Positive |
+| My Blackberry Key2's keyboard is not functioning properly.,"Product, Part",Negative |
+| The sound quality on my ZTE Axon 20 5G is disappointing.,Part,Negative |
+"| The screen of my iPhone XR cracked, it's so frustrating 😭.                               ",Part          ,Negative|
+"| Planning to buy a new Google Pixel 5 soon, heard great things about the camera quality.    ",Product       ,Positive|
+| The battery life of my old Nokia 3310 is surprisingly still impressive.                    ,Part          ,Positive|
+| Samsung Galaxy Fold 2 has a unique folding design that sets it apart from other phones.    ,Product       ,Positive|
+"| The speaker on my Sony Xperia phone stopped working suddenly, very disappointing.          ",Part          ,Negative|
+"| Just got my hands on the new iPhone 12 Pro Max, loving the camera features! 📸              ","Product, Part ",Positive|
+"| The fingerprint sensor on my OnePlus 8T works flawlessly, very impressed.                  ",Part          ,Positive|
+"| My Blackberry Key2 keyboard is starting to feel a bit stiff, might need some maintenance.   ",Part          ,Neutral  |
+"| Can't wait to upgrade to the latest Xiaomi Mi 11, the specs are top-notch.                  ",Product       ,Positive|
+"| The selfie camera of my Oppo Reno 4 Pro takes stunning photos, worth the investment.        ",Part          ,Positive|
+"| Accidentally dropped my Motorola Razr phone, now the screen is completely shattered.        ",Part          ,Negative|
+"| The speakerphone on my LG G8 ThinQ is excellent for conference calls, very clear sound.     ",Part          ,Positive|
+| Planning to switch to a Huawei Mate 40 Pro for its impressive battery life and camera features.,"Product, Part",Positive|
+"| My old HTC One M9 is struggling to keep up with newer apps, time for an upgrade.            ",Product       ,Negative|
+"| The volume buttons on my Google Pixel 4a are a bit stiff, not the best user experience.      ",Part          ,Negative|
+"| The performance of my Asus ROG Phone 3 during gaming sessions is unmatched, very smooth.    ",Part          ,Positive|
+"| Just pre-ordered the new OnePlus 9 Pro, can't wait to experience the latest features.       ",Product       ,Positive|
+"| The screen protector on my Xiaomi Redmi Note 9 keeps peeling off, very annoying.            ",Part          ,Negative|
+"| Got a refurbished iPhone SE 2020 and it works like a charm, great value for money.           ",Product       ,Positive|
+"| The charging port on my Sony Xperia 5 II is loose, have to wiggle the cable to charge.       ",Part          ,Negative|
+| Bought a Samsung Galaxy S20 and absolutely love the camera quality! 📸🔥                                                                      ,"Product, Part    ",Positive |
+| The battery life on my iPhone XS Max is just not cutting it anymore.                                                                          ,Part             ,Negative |
+"| Just pre-ordered the new iPhone 13 Pro Max, can't wait to test out the improved features.                                                       ",Product          ,Neutral  |
+"| My Huawei Mate 20 Pro has been acting up lately, might need to get it checked.                                                                 ",Product          ,Neutral  |
+| The screen on my Google Pixel 5 cracked easily after a small drop.                                                                            ,Part             ,Negative |
+"| Received my new OnePlus 9 Pro yesterday and so far, the performance has been outstanding.                                                       ",Product          ,Positive |
+| Can't believe how fast the charging speed is on my Xiaomi Mi 11 Ultra! Definitely impressed.                                                   ,Part             ,Positive |
+"| The camera quality on the Oppo Find X3 Pro is mind-blowing, such crisp and clear photos.                                                        ","Product, Part    ",Positive |
+| Just upgraded to the new Sony Xperia 1 III and the display is simply stunning.                                                                 ,"Product, Part    ",Positive |
+| My old LG G8 ThinQ finally gave out after years of faithful service.                                                                           ,Product          ,Neutral  |
+| The volume buttons on my Motorola Edge+ are starting to get sticky.                                                                            ,Part             ,Negative |
+| The new Blackberry KEY2 is a great phone for those who prefer physical keyboards.                                                              ,Product          ,Neutral  |
+"| The speakers on my Asus ROG Phone 5 are top-notch, perfect for gaming and media consumption.                                                    ",Part             ,Positive |
+"| Dropped my Realme GT 5G and the back panel shattered, not very durable.                                                                        ","Product, Part    ",Negative |
+"| The camera on my ZTE Axon 30 Ultra takes amazing low-light photos, very impressed.                                                              ","Product, Part    ",Positive |
+"| The fingerprint scanner on my Nokia 8.3 5G is a bit slow, takes a few tries to unlock.                                                          ",Part             ,Negative |
+"| My old HTC U12+ still works like a charm, such a reliable device.                                                                             ",Product          ,Positive |
+"| The storage space on my Vivo X60 Pro+ is running low, time to delete some old files.                                                           ",Part             ,Neutral  |
+"| The design of the TCL 20 Pro 5G is sleek and modern, definitely stands out from the crowd.                                                     ",Product          ,Positive |
+"| The face unlock feature on my Poco F3 GT is hit or miss, sometimes it works flawlessly, other times not so much.                               ",Part             ,Neutral  |
+| Just got my hands on the new Samsung Galaxy S21 Ultra! 📱🔥,Product,Positive |
+"| This phone IS AWEEESOME FOR THE PRICE. I got the peacock blue p30 lite for £180. The phone has great battery life. I can play games and it will genuinely last for a long time (ofc will vary from people and typea of games and apps they use). The fingerprint scanner is instant! Like no lag when using it. The face rec is decent too, I prefer the fingerprint but I use both and they both good. The phone looks sexy as hell too. But its a fingerprint magnet, so buy a clear case in addition since UK models dont get cases. And oo charges really fast too.","Product, Part",Positive |
+| Mic of that phone ! &……* @@@@ easily goes faulty.,Part,Negative |
+"| Love the design, but the SPEAKER is terrible...😂😂🙈🙈",Part,Negative |
+| Bought a Huawei p30 pro and found the camera terrific.,"Product, Part",Positive |
+| My friend plans to fix his old Huawei p20 phone.,Product,Neutral |
+"| Phone speed - amazing. Phone features - amazing. Phone design and colour - amazing. Memory on phone - amazing. Battery life and how quickly it charges - amazing. Fingerprint scanner - amazing. In fact amazing is just an understatement. I have always loved Huawei phones since getting my first one back in Spring 2017. I will try to hold out with Huawei for as long as possible (even if it means to continuously buy pre-May 2019 phones). Literally, what more can I say? I have had this phone for 6 months and it is still going strong. I am so happy with my purchase :)","Product, Part",Positive |
+| The camera quality on the iPhone 12 Pro is unmatched.,"Product, Part",Positive |
+| The battery life of the Google Pixel 5 is disappointing.,"Product, Part",Negative |
+| I dropped my Samsung Note 20 and now the screen is cracked.,"Product, Part",Negative |
+| The new OnePlus 9 has amazing processing power.,"Product, Part",Positive |
+| The microphone on my old iPhone 6s is not working properly.,Part,Negative |
+| Excited to try out the new Motorola Edge+ with its impressive camera features.,"Product, Part",Positive |
+| The speaker on the LG V60 ThinQ is surprisingly loud and clear.,Part,Positive |
+| The Huawei Mate 40 Pro has a stunning display.,"Product, Part",Positive |
+| My experience with the Xiaomi Redmi Note 9 has been mixed.,Product,Neutral |
+| The camera app on the Google Pixel 4a crashes frequently.,"Product, Part",Negative |
+| I love the compact size of the Sony Xperia 5 II.,"Product, Part",Positive |
+| The battery performance of the iPhone 11 Pro Max is exceptional.,"Product, Part",Positive |
+| Bought a Samsung Galaxy Note 20 and I'm loving the camera quality. 📸🔥                   ,"Product, Part",Positive |
+| The battery life on my iPhone 11 Pro Max is disappointing. 😔                              ,Part         ,Negative |
+| Just got the new OnePlus 9 and it's a game-changer! 🚀📱                                  ,Product      ,Positive |
+"| The screen on the Google Pixel 5 is amazing, but the speaker quality is lacking. 📱🔊      ",Part         ,Neutral  |
+| My old Blackberry Curve still works like a charm.                                        ,Product      ,Positive |
+| Can't believe how fast the charging speed is on the Xiaomi Mi 11! ⚡️                     ,Part         ,Positive |
+| The Motorola Razr 5G looks stunning but the software is buggy.                           ,Product      ,Negative |
+| The camera features on the iPhone 12 Pro Max are unmatched. 📸💯                         ,Part         ,Positive |
+| I dropped my Nokia 3310 and the screen cracked. 😢                                       ,Part         ,Negative |
+| The performance of the LG Velvet is top-notch.                                           ,Product      ,Positive |
+| The Sony Xperia 1 II has a beautiful display but the battery drains quickly.              ,"Product, Part",Negative |
+| My HTC One M8 has been with me for years and still runs smoothly.                        ,Product      ,Positive |
+| The speaker on the Alcatel 1SE is surprisingly loud. 🔊                                  ,Part         ,Positive |
+| The fingerprint scanner on the Oppo Find X2 Pro is unreliable.                           ,Part         ,Negative |
+"| The design of the Asus ROG Phone 5 is impressive, but the price is steep.                ",Product      ,Neutral  |
+| Can't wait to get my hands on the new iPhone 13. 📱✨                                    ,Product      ,Positive |
+| The Realme 8 Pro has a great camera but the software is sluggish. 📸🐌                   ,"Product, Part",Negative |
+| My old ZTE Axon 7 is starting to show signs of wear and tear.                            ,Product      ,Negative |
+| The speaker volume on the Xiaomi Redmi Note 9 is disappointingly low. 🔇                 ,Part         ,Negative |
+| The software experience on the Vivo X60 Pro+ is smooth and intuitive.                    ,Part         ,Positive |
+| Just got my hands on the new Samsung Galaxy S21 Ultra! 📱🔥                                               ,Product        ,Positive|
+"| Love the design, but the SPEAKER is terrible...😂😂🙈🙈                                                    ",Part           ,Negative|
+"| Phone speed - amazing. Phone features - amazing. Phone design and colour - amazing. Memory on phone - amazing. Battery life and how quickly it charges - amazing. Fingerprint scanner - amazing. In fact amazing is just an understatement. I have always loved Huawei phones since getting my first one back in Spring 2017. I will try to hold out with Huawei for as long as possible (even if it means to continuously buy pre-May 2019 phones). Literally, what more can I say? I have had this phone for 6 months and it is still going strong. I am so happy with my purchase :)","Product, Part  ",Positive|
+| Mic of that phone  !  &……* @@@@ easily goes faulty.                                                    ,Part           ,Negative|
+"| This phone IS AWEEESOME FOR THE PRICE. I got the peacock blue p30 lite for £180. The phone has great battery life. I can play games and it will genuinely last for a long time (ofc will vary from people and typea of games and apps they use). The fingerprint scanner is instant! Like no lag when using it. The face rec is decent too, I prefer the fingerprint but I use both and they both good. The phone looks sexy as hell too. But its a fingerprint magnet, so buy a clear case in addition since UK models dont get cases. And oo charges really fast too.","Product, Part  ",Positive|
+| Bought a Huawei p30 pro and found the camera terrific.                                                   ,"Product, Part  ",Positive|
+| My friend plans to fix his old Huawei p20 phone.                                                          ,Product        ,Neutral |
+| Mic of that phone easily goes faulty.                                                                     ,Part           ,Negative|
+| Just bought the new iPhone 13 Pro Max and the camera quality is out of this world! 📸🔥       ,"Product, Part ",Positive|
+| My old Samsung S8 battery is draining quickly and the screen keeps freezing.                  ,"Product, Part ",Negative|
+"| Can't decide between the Google Pixel 6 or the iPhone 13, both have great features.            ",Product      ,Neutral |
+"| The speaker on my Xiaomi Redmi Note 10 is surprisingly loud, perfect for watching movies.     ",Part         ,Positive|
+"| The OnePlus 9 Pro design is sleek and modern, a definite head-turner.                        ","Product, Part ",Positive|
+"| Trying to repair the broken screen on my Huawei Mate 20 Pro, hoping it won't cost too much.   ","Product, Part ",Neutral |
+"| The camera lens on my LG G8 ThinQ is scratched, affecting the picture quality.                ",Part         ,Negative|
+| Upgraded to the latest Motorola Edge 20 and the performance is lightning fast!               ,"Product, Part ",Positive|
+"| Nokia 3310 battery life is unbeatable, lasts for days without needing a charge.               ","Product, Part ",Positive|
+"| The Realme 8 Pro's display is vibrant and sharp, perfect for watching videos.                 ","Product, Part ",Positive|
+| The Samsung Galaxy A52 camera is not up to par with other smartphones in its price range.     ,"Product, Part ",Negative|
+"| The speaker on the Blackberry Key2 is surprisingly clear and loud, great for conference calls.","Product, Part ",Positive|
+"| The Oppo Find X3 Pro design is innovative and unique, stands out from other smartphones.      ","Product, Part ",Positive|
+"| The Micromax In Note 1's battery drains quickly, causing frustration during long phone calls. ","Product, Part ",Negative|
+"| Planning to upgrade to the iPhone 13 Mini, hoping it will be a compact yet powerful device.    ",Product      ,Neutral |
+"| My old Xiaomi Mi 9T Pro's charging port is loose, making it difficult to charge the phone.    ","Product, Part ",Negative|
+"| The Vivo X60 Pro's camera features are impressive, capturing stunning photos in any lighting. ","Product, Part ",Positive|
+"| Huawei Nova 7i's fingerprint scanner is quick and accurate, ensuring secure access to the phone.","Product, Part ",Positive|
+| The screen of my iPhone X cracked after a small fall. 😭,Part,Negative |
+| Just purchased the latest OnePlus 9 Pro and I am loving the performance! 💯,Product,Positive |
+| The battery life on my old Samsung Galaxy S8 is not holding up well anymore.,Part,Negative |
+| Looking to upgrade my Google Pixel 4 to the new Google Pixel 6 soon.,Product,Neutral |
+| The camera quality on the Xiaomi Mi 11 Ultra is exceptional.,Part,Positive |
+| ⚡️⚡️The charging speed of the Oppo Find X3 Pro is mind-blowing! ⚡️⚡️,Part,Positive |
+| The back cover of my Sony Xperia 1 II cracked easily.,Part,Negative |
+| Received the new iPhone 13 as a gift and it has exceeded my expectations. 🎁,Product,Positive |
+| The speaker volume on my LG V60 ThinQ is impressively loud.,Part,Positive |
+| The Google Pixel 5a has a sleek design but lacks some key features.,Product,Neutral |
+| Can't believe how fast the facial recognition on my Xiaomi Redmi Note 10 is!,Part,Positive |
+| My Nokia 3310 still works like a charm after all these years.,"Product, Part",Positive |
+| The performance of my old BlackBerry Key2 is slowing down.,Part,Negative |
+| Absolutely in love with the color options for the new Motorola Edge 20. 😍,Part,Positive |
+| The fingerprint scanner on my ASUS ROG Phone 5 is very responsive.,Part,Positive |
+"| The durability of my old HTC U12+ is impressive, still going strong.",Part,Positive |
+| Planning to sell my old Huawei Mate 20 Pro and upgrade to the latest model.,Product,Neutral |
+| The battery drain issue on my OnePlus 7 Pro is frustrating.,Part,Negative |
+| The unique design of the ZTE Axon 30 Ultra sets it apart from other phones.,Part,Positive |
+| Just got the new Samsung Galaxy Z Fold 3 and the folding feature is amazing.,"Product, Part",Positive |
+| ---,---,--- |
+| Bought a Huawei p30 pro and found the camera terrific.,"Product, Part",Positive |
+| My friend plans to fix his old Huawei p20 phone.,Product,Neutral |
+| Mic of that phone easily goes faulty.,Part,Negative |
+| Just upgraded to the latest iPhone 12 Pro Max and loving the camera quality! 📸,"Product, Part",Positive |
+| The battery life on my Samsung Galaxy Note 10 is disappointing.,"Product, Part",Negative |
+| The screen resolution on my Google Pixel 5 is stunning.,"Product, Part",Positive |
+| Why does the speaker on my OnePlus 8 keep crackling?,Part,Negative |
+| The design of the Xiaomi Mi 10 Lite is sleek and modern.,"Product, Part",Positive |
+| Can't believe how fast the charging speed is on the Oppo Find X3 Pro! ⚡️,"Product, Part",Positive |
+| The performance of the Motorola Razr 5G is subpar compared to other phones.,"Product, Part",Negative |
+| Just got my hands on the new Sony Xperia 5 II and the display is phenomenal! 🌟,"Product, Part",Positive |
+| The camera features on the LG Velvet are top-notch.,"Product, Part",Positive |
+| The build quality of the Nokia 9 PureView is questionable.,"Product, Part",Negative |
+| The speaker quality on the Blackberry Key2 is surprisingly good.,Part,Positive |
+| The fingerprint scanner on the Xiaomi Redmi Note 9 is unreliable.,Part,Negative |
+| Loving the new design of the OnePlus Nord N10 5G! 🚀,Product,Positive |
+| The battery life of the Google Pixel 4a 5G is impressive.,"Product, Part",Positive |
+| The camera settings on the Vivo X50 Pro are confusing to navigate.,"Product, Part",Negative |
+| The sound quality of the Huawei Mate 40 Pro is exceptional.,"Product, Part",Positive |
+| The display brightness on the Samsung Galaxy A71 is too dim.,"Product, Part",Negative |
